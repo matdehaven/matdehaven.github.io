@@ -60,4 +60,12 @@ On the username.github.io repository, go to "Settings" then "Pages".
 
 Change the branch to "main" and folder to "docs".
 
-Set the custom domain as custome apex domain: `yourdomain.com`.
+Set the custom domain as the custom apex domain: `yourdomain.com`.
+
+## Hugo PaperMod setup
+
+See [HugoPaperMod page](https://github.com/adityatelange/hugo-PaperMod/) for setting up and [HugoPaperMod Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs) for more information.
+
+Change to Profile Mode. Edit social icons and buttons (I removed buttons).
+
+Add a Menu to the site.

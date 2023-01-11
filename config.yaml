@@ -3,3 +3,45 @@ theme: "hugo-PaperMod"
 baseURL: http://matthewdehaven.com/
 languageCode: en-us
 title: Matthew DeHaven
+
+params:
+    profileMode:
+        enabled: true
+        title: "Matthew DeHaven" # optional default will be site title
+        subtitle: "I am ..."
+        imageUrl:  profile-picture.jpeg
+        imageTitle: Picture of Matthew
+        imageWidth: 120
+        imageHeight: 120
+    socialIcons:
+        - name: "CV"
+          url: "<link2>"
+        - name: "Github"
+          url: "https://github.com/matdehaven"
+        - name: "LinkedIn"
+          url: "<link2>"
+        - name: "GoogleScholar"
+          url: "<link2>"
+
+menu:
+  main:
+    - identifier: About
+      name: About Me
+      url: /about/
+      weight: 10
+    - identifier: Research
+      name: Research
+      url: /research/
+      weight: 20
+    - identifier: Projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    - identifier: Data
+      name: Data
+      url: /data/
+      weight: 40
+    - identifier: Archive
+      name: Archive
+      url: /archive/
+      weight: 50
