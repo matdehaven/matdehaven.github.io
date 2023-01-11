@@ -1,9 +1,20 @@
-# matdehaven.github.io
-My academic website
+# My Academic Website
+
+Built with
+
+-   Github Pages
+
+-   R
+
+    -   blogdown
+
+-   Hugo
+
+    -   PaperMod
 
 ## Purchase a custom domain
 
-I purchased mine from Google Domains, which was easy.
+I purchased mine from (Google Domains)[<https://domains.google>], which was easy.
 
 ### Set up forwarding for Github Pages
 
@@ -14,9 +25,10 @@ Add two records to your domain registry:
     www CNAME username.github.io
         A     [ipaddresses]
         
+
 There will be 4 ip addresses to add to the second record, which point to the Github Pages server.
 
-See (here)[https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site] from Github to get the correct ip addresses, look for "Configuring an apex domain".
+See (here)[<https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>] from Github to get the correct ip addresses, look for "Configuring an apex domain".
 
 ## Create Github repository
 
@@ -49,4 +61,3 @@ On the username.github.io repository, go to "Settings" then "Pages".
 Change the branch to "main" and folder to "docs".
 
 Set the custom domain as custome apex domain: `yourdomain.com`.
-
