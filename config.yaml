@@ -24,7 +24,7 @@ params:
           url: "<link2>"
     label:
       text: Matthew DeHaven
-      icon: "favicon.ico"
+      icon: "profile-picture-favicon.png"
       iconheight: 16
 
 menu:
