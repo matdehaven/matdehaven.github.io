@@ -3,30 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://matthewdehaven.com/categories/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://matthewdehaven.com/post/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>http://matthewdehaven.com/data/</loc>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://matthewdehaven.com/data/2023-01-11-testpost/</loc>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://matthewdehaven.com/projects/2023-01-11-testpost/</loc>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
   </url><url>
     <loc>http://matthewdehaven.com/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://matthewdehaven.com/tags/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>http://matthewdehaven.com/post/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>http://matthewdehaven.com/projects/</loc>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
   </url><url>
     <loc>http://matthewdehaven.com/categories/r/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://matthewdehaven.com/tags/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>http://matthewdehaven.com/tags/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>http://matthewdehaven.com/tags/recession/</loc>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
   </url><url>
     <loc>http://matthewdehaven.com/tags/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <lastmod>2022-11-13T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://matthewdehaven.com/about/</loc>
+    <lastmod>2022-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://matthewdehaven.com/archive/</loc>
+  </url><url>
+    <loc>http://matthewdehaven.com/research/</loc>
   </url>
 </urlset>

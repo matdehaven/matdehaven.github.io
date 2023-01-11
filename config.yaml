@@ -9,7 +9,7 @@ params:
         enabled: true
         title: "Matthew DeHaven" # optional default will be site title
         subtitle: "I am ..."
-        imageUrl:  profile-picture.jpeg
+        imageUrl:  "profile-picture.jpeg"
         imageTitle: Picture of Matthew
         imageWidth: 120
         imageHeight: 120
