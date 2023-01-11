@@ -24,8 +24,9 @@ params:
           url: "<link2>"
     label:
       text: Matthew DeHaven
-      icon: "profile-picture-favicon.png"
+      icon: "favicon.ico"
       iconheight: 16
+
 menu:
   main:
     - identifier: About
