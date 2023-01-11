@@ -14,7 +14,7 @@ Built with
 
 ## Purchase a custom domain
 
-I purchased mine from (Google Domains)[<https://domains.google>], which was easy.
+I purchased mine from [Google Domains](https://domains.google), which was easy.
 
 ### Set up forwarding for Github Pages
 
@@ -28,7 +28,7 @@ Add two records to your domain registry:
 
 There will be 4 ip addresses to add to the second record, which point to the Github Pages server.
 
-See (here)[<https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>] from Github to get the correct ip addresses, look for "Configuring an apex domain".
+See [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) from Github to get the correct ip addresses, look for "Configuring an apex domain".
 
 ## Create Github repository
 
