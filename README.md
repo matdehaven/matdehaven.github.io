@@ -21,8 +21,12 @@ Run `blogdown::build_site()`
 
 Delete the folder "./public", this is now replaced by "./docs".
 
+Add a blank file called ".nojekyll" to both the root folder "./" and to "./docs/".
+
 Push to Github.
 
 ## Setup Github Pages
+
+On the username.github.io repository, go to "Settings" then "Pages".
 
 
