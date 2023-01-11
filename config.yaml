@@ -3,6 +3,8 @@ theme: "hugo-PaperMod"
 baseURL: http://matthewdehaven.com/
 languageCode: en-us
 title: Matthew DeHaven
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "(^|/)renv$", "renv\\.lock$"]
+buildFuture: true
 
 params:
     hideSummary: true
@@ -52,3 +54,9 @@ menu:
       name: Archive
       url: /archive/
       weight: 50
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

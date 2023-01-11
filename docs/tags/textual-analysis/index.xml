@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>textual analysis on Matthew DeHaven</title>
+    <link>http://matthewdehaven.com/tags/textual-analysis/</link>
+    <description>Recent content in textual analysis on Matthew DeHaven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 9999 00:00:00 +0000</lastBuildDate><atom:link href="http://matthewdehaven.com/tags/textual-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identifying Financial Crises Using Machine Learning on Textual Data</title>
+      <link>http://matthewdehaven.com/research/9999-01-01-identifyingfinancialcrises/</link>
+      <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
+      
+      <guid>http://matthewdehaven.com/research/9999-01-01-identifyingfinancialcrises/</guid>
+      <description>Using text analyis on OECD Economic Outlooks to nowcast and forecast economic crises.</description>
+    </item>
+    
+  </channel>
+</rss>

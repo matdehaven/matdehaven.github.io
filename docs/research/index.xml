@@ -6,7 +6,16 @@
     <description>Recent content in Research on Matthew DeHaven</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://matthewdehaven.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 9999 00:00:00 +0000</lastBuildDate><atom:link href="http://matthewdehaven.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identifying Financial Crises Using Machine Learning on Textual Data</title>
+      <link>http://matthewdehaven.com/research/9999-01-01-identifyingfinancialcrises/</link>
+      <pubDate>Fri, 01 Jan 9999 00:00:00 +0000</pubDate>
+      
+      <guid>http://matthewdehaven.com/research/9999-01-01-identifyingfinancialcrises/</guid>
+      <description>Using text analyis on OECD Economic Outlooks to nowcast and forecast economic crises.</description>
+    </item>
+    
     <item>
       <title>The Global Recovery: Lessons from the Past</title>
       <link>http://matthewdehaven.com/research/2021-06-22-theglobalrecovery/</link>
