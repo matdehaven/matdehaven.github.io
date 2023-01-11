@@ -5,14 +5,17 @@ languageCode: en-us
 title: Matthew DeHaven
 
 params:
+    hideSummary: true
+    hideDescription: false
+    DateFormat: "January 2006"
     profileMode:
         enabled: true
         title: "Matthew DeHaven" # optional default will be site title
         subtitle: "I am ..."
-        imageUrl:  "profile-picture.jpeg"
+        imageUrl:  "profile-picture_4in.png"
         imageTitle: Picture of Matthew
-        imageWidth: 120
-        imageHeight: 120
+        imageWidth: 200*1.1547 # Hexagon ratio
+        imageHeight: 200
     socialIcons:
         - name: "CV"
           url: "<link2>"

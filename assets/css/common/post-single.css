@@ -4,7 +4,7 @@
 }
 
 .post-title {
-    margin-bottom: 2px;
+    margin-bottom: 20px;
     font-size: 40px;
 }
 
@@ -16,7 +16,8 @@
 .post-meta,
 .breadcrumbs {
     color: var(--secondary);
-    font-size: 14px;
+/*    color: var(--primary);*/
+    font-size: 16px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -55,25 +56,32 @@
 
 .post-content h3 {
     font-size: 24px;
+    color: var(--tertiary);
 }
 
 .post-content h4 {
     font-size: 16px;
+    font-weight: normal;
+    color: var(--secondary);
 }
 
 .post-content h5 {
     font-size: 14px;
+    color: var(--tertiary);
 }
 
 .post-content h6 {
     font-size: 12px;
+    color: var(--tertiary);
 }
 
 .post-content a,
+.post-meta a,
 .toc a:hover {
-    box-shadow: 0 1px 0;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
+    box-shadow: 0 2px 0 var(--secondary);
+    color: currentColor; 
+/*    var(--secondary)*/
+}
 }
 
 .post-content a code {
@@ -317,13 +325,16 @@
     padding-inline-end: 14px;
     color: var(--secondary);
     font-size: 14px;
-    line-height: 34px;
+    line-height: 28px;
     background: var(--code-bg);
 }
 
-.post-tags a:hover,
+.post-tags a:hover {
+    background: var(--tertiary);
+}
+
 .paginav a:hover {
-    background: var(--border);
+    background: var(--tertiary);
 }
 
 .share-buttons {
@@ -349,16 +360,18 @@ h4:hover .anchor,
 h5:hover .anchor,
 h6:hover .anchor {
     display: inline-flex;
-    color: var(--secondary);
-    margin-inline-start: 8px;
-    font-weight: 500;
+    color: var(--primary);
+    margin-inline-start: 10px;
+    font-weight: 700;
     user-select: none;
+    box-shadow: 0 0px 0 var(--primary);
 }
 
 .paginav {
     margin: 10px 0;
     display: flex;
-    line-height: 30px;
+    line-height: 28px;
+    font-size: 14px;
     border-radius: var(--radius);
 }
 
@@ -366,6 +379,7 @@ h6:hover .anchor {
     padding-inline-start: 14px;
     padding-inline-end: 14px;
     border-radius: var(--radius);
+    color: var(--secondary);
 }
 
 .paginav .title {
@@ -380,9 +394,9 @@ h6:hover .anchor {
     width: 50%;
 }
 
-.paginav span:hover:not(.title) {
-    box-shadow: 0 1px 0;
-}
+/*.paginav span:hover:not(.title) {
+    box-shadow: 0  0;
+}*/
 
 .paginav .next {
     margin-inline-start: auto;

@@ -40,6 +40,11 @@
     width: 26px;
 }
 
+
+.social-icons a:hover {
+    color: var(--primary);
+}
+
 code {
     direction: ltr;
 }
