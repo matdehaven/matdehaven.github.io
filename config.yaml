@@ -1,5 +1,5 @@
 publishDir: docs/
 theme: "hugo-PaperMod"
-baseURL: http://example.org/
+baseURL: http://matthewdehaven.com/
 languageCode: en-us
-title: My New Hugo Site
+title: Matthew DeHaven
