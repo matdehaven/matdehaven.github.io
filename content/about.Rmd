@@ -2,15 +2,32 @@
 title: "About Me"
 date: 2022-11-13
 ---
+<p><a href="../TestPDF.pdf" download>CV.pdf</a><p>
+---
 
-Economics Graudate Student, 2021 - 
+Economics PhD Student, Brown University, 2021 - Present
 
-Brown University
+---
 
+#### Research Interests
 
+- business cycles
 
+- monetary policy
 
-## Research Interests
+- macro-finance
 
+- text analysis
 
-## Header
+---
+
+I grew up in Pittsboro, North Carolina in the middle of the woods.
+
+For college, I went to Furman University in South Carolina, where I studied mathematics, economics, and political science.
+
+Afterwards, I spent three years as a research assistant at the Board of Governors of the Federal Reserve in Washington, DC.
+First working with the section of economists focused on International Financial Stability and in my last year working for the Division Director for International Finance, Beth Anne Wilson.
+
+I moved to Providence in 2021 to pursue my graduate degree at Brown University.
+
+![](../aboutme_picture.png)

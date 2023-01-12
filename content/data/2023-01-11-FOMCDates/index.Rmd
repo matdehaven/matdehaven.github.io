@@ -1,0 +1,21 @@
+---
+title: "FOMC Dates"
+author: "Matthew DeHaven"
+date: 2023-01-11
+tags: ["monetary policy", "data"]
+description: All FOMC meeting dates since .
+---
+
+#### Data
+
+Github Button
+
+#### Description
+
+FOMC meetings are every six weeks, on Tuesday and Wednesday, but the schedule has changed across the years.
+
+Importantly, only recently did the Federal Reserve start having a press conference on the last meeting day.
+
+Here I scrape the Federal Reserve's website to pull the most recent meeting days and the historical ones from their archive.
+
+There are a few manual adjustments for some non-standard format meetings.

@@ -17,21 +17,21 @@
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>http://matthewdehaven.com/data/2023-01-11-testpost/</link>
-      <pubDate>Sun, 13 Nov 2022 21:13:14 -0500</pubDate>
+      <title>FOMC Dates</title>
+      <link>http://matthewdehaven.com/data/2023-01-11-fomcdates/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://matthewdehaven.com/data/2023-01-11-testpost/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.</description>
+      <guid>http://matthewdehaven.com/data/2023-01-11-fomcdates/</guid>
+      <description>All FOMC meeting dates since .</description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>http://matthewdehaven.com/projects/2023-01-11-testpost/</link>
-      <pubDate>Sun, 13 Nov 2022 21:13:14 -0500</pubDate>
+      <title>Replication: Common Shocks in Stocks and Bonds</title>
+      <link>http://matthewdehaven.com/projects/2022-12-10-replicatecommonshocks/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://matthewdehaven.com/projects/2023-01-11-testpost/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.</description>
+      <guid>http://matthewdehaven.com/projects/2022-12-10-replicatecommonshocks/</guid>
+      <description>A class project to replicate the work of Anna Cieslak and Hao Pang&amp;#39;s 2021 paper, Common Shocks in Stocks and Bonds</description>
     </item>
     
     <item>
@@ -40,9 +40,15 @@
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://matthewdehaven.com/about/</guid>
-      <description> Economics Graudate Student, 2021 -
-Brown University
-Research Interests Header </description>
+      <description>CV.pdf Economics PhD Student, Brown University
+2021 - Present
+Research Interests business cycles
+monetary policy
+macro-finance
+text analysis
+I grew up in Pittsboro, North Carolina in the middle of the woods.
+For college, I went to Furman University in South Carolina, where I studied mathematics, economics, and political science.
+Afterwards, I spent three years as a research assistant at the Board of Governors of the Federal Reserve in Washington, DC.</description>
     </item>
     
     <item>
