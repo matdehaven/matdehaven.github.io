@@ -34,7 +34,8 @@ params:
       icon: "safari-pinned-tab.svg" ## Highest quality because SVG
       iconheight: 32
     assets:
-       disableHLJS: true 
+       disableHLJS: true
+       disableScrollBarStyle: true
        favicon: "/static/favicon.ico" 
        favicon16x16: "/static/favicon-16x16.png" 
        favicon32x32: "/static/favicon-32x32.png"  

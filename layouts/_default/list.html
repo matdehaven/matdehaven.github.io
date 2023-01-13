@@ -81,7 +81,7 @@
   {{- end }}
   {{- if (ne (.Param "hideDescription") true) }}
   <div class="entry-content">
-    <p>{{ .Description | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    <p>{{ .Description | plainify | htmlUnescape }}{{ if .Truncated }}{{ end }}</p>
   </div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}
