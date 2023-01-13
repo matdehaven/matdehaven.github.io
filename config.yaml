@@ -15,7 +15,7 @@ params:
     profileMode:
         enabled: true
         title: "Matthew DeHaven"
-        subtitle: "I am a PhD student in economics at Brown University.  My interets are in macroeconomics, international finance, and monetary policy.  In particular, I hope to study the causes of recessions and financial crises, and the best policies to aid recoveries."
+        subtitle: "I am a PhD student in economics at Brown University.  My interests are in macroeconomics, international finance, and monetary policy.  In particular, I hope to study the causes of recessions and financial crises, and the best policies to aid recoveries."
         imageUrl:  "profile-picture-square.png"
         imageTitle: Picture of Matthew
         imageWidth: 200 # Hexagon ratio
@@ -31,8 +31,8 @@ params:
           url: "https://scholar.google.com/citations?user=q_4egM0AAAAJ&hl=en"
     label:
       text: Matthew DeHaven
-      icon: "profile-picture-square.png"
-      iconheight: 16
+      icon: "logo.png"
+      iconheight: 32
 
 menu:
   main:
