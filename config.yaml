@@ -31,7 +31,7 @@ params:
           url: "https://scholar.google.com/citations?user=q_4egM0AAAAJ&hl=en"
     label:
       text: Matthew DeHaven
-      icon: "favicon.ico"
+      icon: "safari-pinned-tab.svg" ## Highest quality because SVG
       iconheight: 32
     assets:
        disableHLJS: true 
