@@ -27,7 +27,7 @@ params:
           url: "https://github.com/matdehaven"
         - name: "LinkedIn"
           url: "https://www.linkedin.com/in/matthew-dehaven-067856b6/"
-        - name: "GoogleScholar"
+        - name: "Google Scholar"
           url: "https://scholar.google.com/citations?user=q_4egM0AAAAJ&hl=en"
     label:
       text: Matthew DeHaven
