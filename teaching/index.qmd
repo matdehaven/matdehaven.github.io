@@ -1,0 +1,13 @@
+---
+title: "Teaching"
+listing:
+  type: table
+  sort-ui: false
+  filter-ui: false
+  categories: true
+  fields: [title]
+  contents:
+    - "*.qmd"
+---
+
+Listings of all of my teaching resources.

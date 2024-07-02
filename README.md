@@ -1,71 +1,29 @@
-# My Academic Website
+# quarto-academic-website
+A template for a basic academic website made using [Quarto](https://quarto.org).
+It is meant to be a starting point for a Quarto based website, as Quarto has many more options than what is shown here.
 
-Built with
+The website contains:
 
--   Github Pages
+- Home page
+  - profile picture
+  - icons for links to Github, etc.
+- About page
+- Research page
+  - Automatically lists paper/project pages in the "research/" folder
+- CV pdf
 
--   R
+## How to Use
 
-    -   blogdown
+Click "Use this template".
 
--   Hugo
+## Customization
 
-    -   PaperMod
+- First, [install Quarto](https://quarto.org/docs/get-started/)
 
-## Purchase a custom domain
-
-I purchased mine from [Google Domains](https://domains.google), which was easy.
-
-### Set up forwarding for Github Pages
-
-[Guide from Github](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-
-Add two records to your domain registry:
-
-    www CNAME username.github.io
-        A     [ipaddresses]
-        
-
-There will be 4 ip addresses to add to the second record, which point to the Github Pages server.
-
-See [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) from Github to get the correct ip addresses, look for "Configuring an apex domain".
-
-## Create Github repository
-
-Titled `username.github.io`
-
-## Create local R project linked to github repository
-
-Initialize "renv" to keep track of package versions.
-
-Install and load R package "blogdown"
-
-    blogdown::new_site(theme = "adityatelange/hugo-PaperMod", netlify = F)
-
-Click through yeses, should see a local template version of the PaperMod site.
-
-Add to "config.yaml" `publishDir: docs/`
-
-Run `blogdown::build_site()`
-
-Delete the folder "./public", this is now replaced by "./docs".
-
-Add a blank file called ".nojekyll" to both the root folder "./" and to "./docs/".
-
-Push to Github.
-
-## Setup Github Pages
-
-On the username.github.io repository, go to "Settings" then "Pages".
-
-Change the branch to "main" and folder to "docs".
-
-Set the custom domain as the custom apex domain: `yourdomain.com`.
-
-## Hugo PaperMod setup
-
-See [HugoPaperMod page](https://github.com/adityatelange/hugo-PaperMod/) for setting up and [HugoPaperMod Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs) for more information.
-
-Change to Profile Mode. Edit social icons and buttons (I removed buttons).
-
-Add a Menu to the site.
+Add your own "profile.jpg" and "cv.pdf" to the repository.
+Then edit the text and options in each ".qmd" file.
+The "_quarto.yml" controls some site-wide settings, like the navbar links.
+You can create new papers in the listing by adding new ".qmd" files to the "research/" folder.
+Change the "favicon" by replacing "logo.png" with a new image.
+You can generate favicons at [favicon.io](https://favicon.io).
+You just need one of the png files, not all of the versions.

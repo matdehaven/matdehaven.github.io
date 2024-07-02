@@ -1,0 +1,27 @@
+---
+title: "Matthew DeHaven"
+about:
+  template: trestles
+  image: static-content/about-me-profile.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/matdehaven
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/matthew-dehaven-067856b6/
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=q_4egM0AAAAJ&hl=en
+    - icon: file-earmark-person
+      text: CV
+      href: CV/cv.pdf
+---
+
+I grew up in Pittsboro, North Carolina in the middle of the woods.
+
+For college, I went to Furman University in South Carolina, where I studied mathematics, economics, and political science.
+
+Afterwards, I spent three years as a research assistant at the Board of Governors of the Federal Reserve in Washington, DC. First working with the section of economists focused on International Financial Stability and in my last year working for the Division Director for International Finance, Beth Anne Wilson.
+
+I moved to Providence in 2021 to pursue my graduate degree at Brown University.

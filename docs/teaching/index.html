@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Matthew DeHaven - Research</title>
+<title>Matthew DeHaven - Teaching</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,76 +72,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-working-papers .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-image","listing-categories"],
+      searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-working-papers'] = new List('listing-working-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-published-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-published-papers'] = new List('listing-published-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-other-research .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-other-research'] = new List('listing-other-research', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -212,11 +156,11 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching/index.html"> 
+    <a class="nav-link active" href="../teaching/index.html" aria-current="page"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
@@ -242,22 +186,14 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link active" data-scroll-target="#working-papers">Working Papers</a></li>
-  <li><a href="#published-papers" id="toc-published-papers" class="nav-link" data-scroll-target="#published-papers">Published Papers</a></li>
-  <li><a href="#other-research" id="toc-other-research" class="nav-link" data-scroll-target="#other-research">Other Research</a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="business cycles">business cycles <span class="quarto-category-count">(2)</span></div><div class="category" data-category="international">international <span class="quarto-category-count">(2)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text analysis">text analysis <span class="quarto-category-count">(1)</span></div></div></div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="graduate">graduate <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Teaching</h1>
 </div>
 
 
@@ -274,115 +210,32 @@ window.Quarto = {
 </header>
 
 
-<p>Listings for all of my published and unpublished research projects.</p>
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<div id="listing-working-papers" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
+<p>Listings of all of my teaching resources.</p>
 
-</div>
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="graduate" data-listing-file-modified-sort="1719960589764" data-listing-reading-time-sort="1" data-listing-word-count-sort="120" data-listing-title-sort="Applied Economics Analysis" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../teaching/applied-economic-analysis/index.html" class="title listing-title">Applied Economics Analysis</a>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-</section>
-<section id="published-papers" class="level2">
-<h2 class="anchored" data-anchor-id="published-papers">Published Papers</h2>
-<div id="listing-published-papers" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="business cycles,international,machine learning,text analysis" data-listing-date-sort="1677646800000" data-listing-file-modified-sort="1719956463370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
-<div class="thumbnail">
-<p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
-<p class="card-img-top"><img src="published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/fig11.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">Identifying Financial Crises Using Machine Learning on Textual Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('business cycles'); return false;">
-business cycles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('text analysis'); return false;">
-text analysis
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
-<div class="listing-date">
-Mar 1, 2023
-</div>
-<div class="listing-author">
-Mary Chen, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, Martin J. Sicilian
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="other-research" class="level2">
-<h2 class="anchored" data-anchor-id="other-research">Other Research</h2>
-<div id="listing-other-research" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="business cycles,international" data-listing-date-sort="1624334400000" data-listing-file-modified-sort="1719957147646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
-<div class="thumbnail">
-<p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
-<p class="card-img-top"><img src="other-research/2021-06-22-The-Global-Recovery/fig1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">The Global Recovery: Lessons from the Past</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('business cycles'); return false;">
-business cycles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
-<div class="listing-date">
-Jun 22, 2021
-</div>
-<div class="listing-author">
-Dario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

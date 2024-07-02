@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "CV/cv.html",
+    "href": "CV/cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Email: matthew_dehaven@brown.edu"
+  },
+  {
+    "objectID": "CV/cv.html#education",
+    "href": "CV/cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nDoctor of Philosophy Economics\nBrown University, 2021 — present\nBachelor’s of Science Mathematics-Economics and Political Science\nFurman University, 2014 — 2018"
+  },
+  {
+    "objectID": "CV/cv.html#work-experience",
+    "href": "CV/cv.html#work-experience",
+    "title": "Curriculum Vitae",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nResearch Assistant\nFederal Reserve Board of Governors, 2018 — 2021\nWorked in the International Finance Division studying International Financial Stability. Daily work contained a mix of policy and research projects. Built experience coding in R and Python."
+  },
+  {
+    "objectID": "CV/cv.html#presentations-and-workshops",
+    "href": "CV/cv.html#presentations-and-workshops",
+    "title": "Curriculum Vitae",
+    "section": "Presentations and Workshops",
+    "text": "Presentations and Workshops\n\nUpcoming\n\nSouthern Economic Association (November 23-25, 2024)"
+  },
+  {
+    "objectID": "teaching/applied-economic-analysis/index.html",
+    "href": "teaching/applied-economic-analysis/index.html",
+    "title": "Applied Economics Analysis",
+    "section": "",
+    "text": "A first year graduate course aimed to prepare students with practical skills for pursuing academic research.\n\nMy Role\n\nCourse Designer and Instructor\n\n\nCourse Website\nCourse Syllabus\n\nCourse Description\nThis course prepares students to conduct independent research by providing the necessary skills in programming and project organization. Topics covered will include version control, the Visual Studio Code IDE, programming basics, environments, functional programming, unit testing, data vizualization, data science, and more. Material will be presented using the programming language R, with some time spent on introductions to Python, Julia, and some basics of HTML. By the end of the course students should feel comfortable in the major programming languages used in economic research and in producing their own work as a replicable, sustainable project.\n\n\nTeaching Reviews\nSpring 2024"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matthew DeHaven",
+    "section": "",
+    "text": "I am a Ph.D. candidate in Economics at Brown University.\nMy interests are in macroeconomics, international finance, and monetary policy. In particular, I hope to study the causes of recessions and financial crises, and the best policies to aid recoveries."
+  },
+  {
+    "objectID": "research/working-papers/placeholder/index.html",
+    "href": "research/working-papers/placeholder/index.html",
+    "title": "Placeholder",
+    "section": "",
+    "text": "Just exists so the working paper list always matches something, even when there are no working papers to show. Otherwise, Quarto throws a compilation error."
+  },
+  {
+    "objectID": "research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html",
+    "href": "research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html",
+    "title": "Identifying Financial Crises Using Machine Learning on Textual Data",
+    "section": "",
+    "text": "Published Article in the Journal of Risk and Financial Management.\n\nAbstract\nWe use machine learning techniques on textual data to identify financial crises. One of the challenges in financial crisis management is being able to determine whether a country is in a crisis or not, or what type of crisis a country is in, especially in real time. The onset of a crisis and its severity also has implications for real economic activity and, hence can be a valuable input into macroprudential, monetary, and fiscal policy. The academic literature and the policy realm rely mostly on expert judgment to determine crises. Consequently, the identification of crises and the buildup-phases of vulnerabilities are usually determined with hindsight. Although we can identify and forecast a good portion of various degrees of crises worldwide with traditional econometric techniques using readily available markets data, we find that textual data helps in reducing false-positives and false-negatives in out-of-sample testing of such models, especially when the crises are considered more severe.\n\nFigure 11: US OECD Economic Outlook with LIME Highlighting\n\n\n\n\nCitation\nChen, Mary, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, and Martin J. Sicilian. 2023. “Identifying Financial Crises Using Machine Learning on Textual Data” Journal of Risk and Financial Management 16, no. 3: 161. https://doi.org/10.3390/jrfm16030161"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Listings for all of my published and unpublished research projects."
+  },
+  {
+    "objectID": "research/index.html#working-papers",
+    "href": "research/index.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#published-papers",
+    "href": "research/index.html#published-papers",
+    "title": "Research",
+    "section": "Published Papers",
+    "text": "Published Papers\n\n\n\n\n\n\n\n\n\n\nIdentifying Financial Crises Using Machine Learning on Textual Data\n\n\n\n\n\n\nbusiness cycles\n\n\ninternational\n\n\nmachine learning\n\n\ntext analysis\n\n\n\n\n\n\nMar 1, 2023\n\n\nMary Chen, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, Martin J. Sicilian\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#other-research",
+    "href": "research/index.html#other-research",
+    "title": "Research",
+    "section": "Other Research",
+    "text": "Other Research\n\n\n\n\n\n\n\n\n\n\nThe Global Recovery: Lessons from the Past\n\n\n\n\n\n\nbusiness cycles\n\n\ninternational\n\n\n\n\n\n\nJun 22, 2021\n\n\nDario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/other-research/2021-06-22-The-Global-Recovery/index.html",
+    "href": "research/other-research/2021-06-22-The-Global-Recovery/index.html",
+    "title": "The Global Recovery: Lessons from the Past",
+    "section": "",
+    "text": "The official FEDS Note.\n\nSummary\nThe downturn in global economic activity caused by the COVID-19 pandemic was unique both for its causes and for its severity. Even though, on a global scale, the recent contraction is unprecedented in modern times, it is useful to look at the consequences of large recessions which affected individual countries in the past. In this note, we draw insights about the ongoing global recovery by looking at the evolution of several economic indicators in the aftermath of past recessions.\nWe find that, following severe contractions, output typically remains well below its pre-recession trend in the medium term. This behavior is more marked for severe recessions that are accompanied by financial crises, while severe but short contractions result in a faster recovery. The post-COVID-19 recovery appears to be much more rapid than in standard severe recessions, putting it roughly in line with severe and short recessions of the past.\nWe argue that outsized policy interventions in response to COVID-19 provided unprecedented support to households and firms, preventing a more prolonged downturn. Furthermore, productivity is likely to be more resilient compared to past slumps, which should help to sustain the pace of the recovery in the coming years.\n\nFigure 1: GDP Recovery after “Severe Recessions”\n\n\n\n\nCitation\nCaldara, Dario, Matthew DeHaven, Francesco Ferrante, and Matteo Iacoviello (2021). “The Global Recovery: Lessons from the Past,” FEDS Notes. Washington: Board of Governors of the Federal Reserve System, June 22, 2021, https://doi.org/10.17016/2380-7172.2931."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Matthew DeHaven",
+    "section": "",
+    "text": "I grew up in Pittsboro, North Carolina in the middle of the woods.\nFor college, I went to Furman University in South Carolina, where I studied mathematics, economics, and political science.\nAfterwards, I spent three years as a research assistant at the Board of Governors of the Federal Reserve in Washington, DC. First working with the section of economists focused on International Financial Stability and in my last year working for the Division Director for International Finance, Beth Anne Wilson.\nI moved to Providence in 2021 to pursue my graduate degree at Brown University."
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Listings of all of my teaching resources.\n\n\n\n\n\n\n\n\n\nTitle\n\n\n\n\n\n\nApplied Economics Analysis\n\n\n\n\n\nNo matching items"
+  }
+]
