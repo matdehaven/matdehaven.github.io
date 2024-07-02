@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Matthew DeHaven"
-  favicon: static-content/logo/logo.svg
+  favicon: static-content/logo/logo-32x32.png
   navbar:
     logo: static-content/logo/logo.svg
     left:
