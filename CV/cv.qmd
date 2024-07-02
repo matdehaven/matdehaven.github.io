@@ -1,0 +1,38 @@
+---
+format:
+  html:
+    title: "Curriculum Vitae"
+    toc: true
+  pdf:
+    title: Matthew DeHaven
+---
+
+
+Email: [matthew_dehaven@brown.edu](mailto:matthew_dehaven@brown.edu)
+
+## Education
+
+**Doctor of Philosophy** Economics
+
+*Brown University*, 2021 --- present
+
+**Bachelor's of Science** Mathematics-Economics and Political Science
+
+*Furman University*, 2014 --- 2018
+
+
+## Work Experience
+
+### Research Assistant
+
+*Federal Reserve Board of Governors*, 2018 --- 2021
+
+Worked in the International Finance Division studying International Financial Stability.
+Daily work contained a mix of policy and research projects.
+Built experience coding in R and Python.
+
+
+## Presentations and Workshops
+
+#### Upcoming
+- Southern Economic Association (November 23-25, 2024)

@@ -1,14 +1,13 @@
-.DS_Store
-Thumbs.db
-.hugo_build.lock
-*.ai
-
 # History files
 .Rhistory
 .Rapp.history
 
+/.quarto/
+/_site/
+
 # Session Data files
 .RData
+.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -42,3 +41,11 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+/.quarto/

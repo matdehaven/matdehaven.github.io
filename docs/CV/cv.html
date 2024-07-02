@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Matthew DeHaven - Research</title>
+<title>Matthew DeHaven - Curriculum Vitae</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../static-content/logo/logo.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,121 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-working-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-working-papers'] = new List('listing-working-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-published-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-published-papers'] = new List('listing-published-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-other-research .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-other-research'] = new List('listing-other-research', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -212,7 +96,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -246,18 +130,21 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link active" data-scroll-target="#working-papers">Working Papers</a></li>
-  <li><a href="#published-papers" id="toc-published-papers" class="nav-link" data-scroll-target="#published-papers">Published Papers</a></li>
-  <li><a href="#other-research" id="toc-other-research" class="nav-link" data-scroll-target="#other-research">Other Research</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a>
+  <ul class="collapse">
+  <li><a href="#research-assistant" id="toc-research-assistant" class="nav-link" data-scroll-target="#research-assistant">Research Assistant</a></li>
+  </ul></li>
+  <li><a href="#presentations-and-workshops" id="toc-presentations-and-workshops" class="nav-link" data-scroll-target="#presentations-and-workshops">Presentations and Workshops</a></li>
   </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="business cycles">business cycles <span class="quarto-category-count">(2)</span></div><div class="category" data-category="international">international <span class="quarto-category-count">(2)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text analysis">text analysis <span class="quarto-category-count">(1)</span></div></div></div>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cv.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Curriculum Vitae</h1>
 </div>
 
 
@@ -274,112 +161,32 @@ window.Quarto = {
 </header>
 
 
-<p>Listings for all of my published and unpublished research projects.</p>
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<div id="listing-working-papers" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<p>Email: <a href="mailto:matthew_dehaven@brown.edu">matthew_dehaven@brown.edu</a></p>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p><strong>Doctor of Philosophy</strong> Economics</p>
+<p><em>Brown University</em>, 2021 — present</p>
+<p><strong>Bachelor’s of Science</strong> Mathematics-Economics and Political Science</p>
+<p><em>Furman University</em>, 2014 — 2018</p>
 </section>
-<section id="published-papers" class="level2">
-<h2 class="anchored" data-anchor-id="published-papers">Published Papers</h2>
-<div id="listing-published-papers" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="business cycles,international,machine learning,text analysis" data-listing-date-sort="1677646800000" data-listing-file-modified-sort="1719956463370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
-<div class="thumbnail">
-<p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
-<p class="card-img-top"><img src="published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/fig11.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">Identifying Financial Crises Using Machine Learning on Textual Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('business cycles'); return false;">
-business cycles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('text analysis'); return false;">
-text analysis
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
-<div class="listing-date">
-Mar 1, 2023
-</div>
-<div class="listing-author">
-Mary Chen, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, Martin J. Sicilian
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<section id="work-experience" class="level2">
+<h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
+<section id="research-assistant" class="level3">
+<h3 class="anchored" data-anchor-id="research-assistant">Research Assistant</h3>
+<p><em>Federal Reserve Board of Governors</em>, 2018 — 2021</p>
+<p>Worked in the International Finance Division studying International Financial Stability. Daily work contained a mix of policy and research projects. Built experience coding in R and Python.</p>
 </section>
-<section id="other-research" class="level2">
-<h2 class="anchored" data-anchor-id="other-research">Other Research</h2>
-<div id="listing-other-research" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="business cycles,international" data-listing-date-sort="1624334400000" data-listing-file-modified-sort="1719957147646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
-<div class="thumbnail">
-<p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
-<p class="card-img-top"><img src="other-research/2021-06-22-The-Global-Recovery/fig1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">The Global Recovery: Lessons from the Past</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('business cycles'); return false;">
-business cycles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
-<div class="listing-date">
-Jun 22, 2021
-</div>
-<div class="listing-author">
-Dario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+</section>
+<section id="presentations-and-workshops" class="level2">
+<h2 class="anchored" data-anchor-id="presentations-and-workshops">Presentations and Workshops</h2>
+<section id="upcoming" class="level4">
+<h4 class="anchored" data-anchor-id="upcoming">Upcoming</h4>
+<ul>
+<li>Southern Economic Association (November 23-25, 2024)</li>
+</ul>
 
 
-
+</section>
 </section>
 
 </main> <!-- /main -->

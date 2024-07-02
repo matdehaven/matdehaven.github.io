@@ -1,0 +1,6 @@
+---
+title: "Placeholder"
+---
+
+Just exists so the working paper list always matches something, even when there are no working papers to show.
+Otherwise, Quarto throws a compilation error.

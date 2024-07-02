@@ -1,0 +1,23 @@
+---
+title: "Matthew DeHaven"
+about:
+  template: jolla
+  image: static-content/profile.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/matdehaven
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/matthew-dehaven-067856b6/
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=q_4egM0AAAAJ&hl=en
+    - icon: file-earmark-person
+      text: CV
+      href: CV/cv.pdf
+---
+
+I am a Ph.D. candidate in Economics at Brown University.
+
+My interests are in macroeconomics, international finance, and monetary policy. In particular, I hope to study the causes of recessions and financial crises, and the best policies to aid recoveries.

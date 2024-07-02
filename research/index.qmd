@@ -1,0 +1,42 @@
+---
+title: "Research"
+listing:
+  - id: working-papers
+    type: default
+    categories: true
+    fields: [title, author, categories]
+    contents:
+      - "working-papers/**/*.qmd"
+    exclude:
+      title: "Placeholder"
+  - id: published-papers
+    type: default
+    categories: true
+    fields: [image, date, title, author, categories]
+    contents:
+      - "published-papers/**/*.qmd"
+  - id: other-research
+    type: default
+    categories: true
+    fields: [image, date, title, author, categories]
+    contents:
+      - "other-research/**/*.qmd"
+---
+
+Listings for all of my published and unpublished research projects.
+
+## Working Papers
+
+:::{#working-papers}
+:::
+
+## Published Papers
+
+:::{#published-papers}
+:::
+
+
+## Other Research
+
+:::{#other-research}
+:::

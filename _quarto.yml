@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Matthew DeHaven"
+  favicon: static-content/logo/logo.svg
+  navbar:
+    logo: static-content/logo/logo.svg
+    left:
+      - href: about.qmd
+        text: About
+      - href: research/index.qmd
+        text: Research
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: static-content/cv.pdf
+        text: CV
+    right:
+      - href: https://github.com/matdehaven
+        icon: github
+  page-footer: "Created using [Quarto](https://quarto.org), see my [repository](https://github.com/matdehaven/quarto-academic-website) for a template." 
+
+format:
+  html:
+    theme: 
+      - simplex
+      - custom-theme.scss
+    toc: true
+
+editor:
+  render-on-save: true

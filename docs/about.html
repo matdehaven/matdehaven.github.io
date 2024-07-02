@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Matthew DeHaven - Research</title>
+<title>Matthew DeHaven</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../static-content/logo/logo.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./static-content/logo/logo.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,135 +66,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-working-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-working-papers'] = new List('listing-working-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-published-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-published-papers'] = new List('listing-published-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-other-research .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-other-research'] = new List('listing-other-research', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../static-content/logo/logo.svg" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./static-content/logo/logo.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Matthew DeHaven</span>
     </a>
   </div>
@@ -208,19 +91,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="./research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching/index.html"> 
+    <a class="nav-link" href="./teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../static-content/cv.pdf"> 
+    <a class="nav-link" href="./static-content/cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -241,148 +124,48 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link active" data-scroll-target="#working-papers">Working Papers</a></li>
-  <li><a href="#published-papers" id="toc-published-papers" class="nav-link" data-scroll-target="#published-papers">Published Papers</a></li>
-  <li><a href="#other-research" id="toc-other-research" class="nav-link" data-scroll-target="#other-research">Other Research</a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="business cycles">business cycles <span class="quarto-category-count">(2)</span></div><div class="category" data-category="international">international <span class="quarto-category-count">(2)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text analysis">text analysis <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles content">
+  <div class="about-entity">
+    <img src="static-content/about-me-profile.jpg" class="about-image
+  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Matthew DeHaven</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
+    <div class="about-links">
+  <a href="https://github.com/matdehaven" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://www.linkedin.com/in/matthew-dehaven-067856b6/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://scholar.google.com/citations?user=q_4egM0AAAAJ&amp;hl=en" class="about-link" rel="" target="">
+    <i class="bi bi-google"></i>
+     <span class="about-link-text">Google Scholar</span>
+  </a>
+  <a href="/CV/cv.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-earmark-person"></i>
+     <span class="about-link-text">CV</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>I grew up in Pittsboro, North Carolina in the middle of the woods.</p>
+<p>For college, I went to Furman University in South Carolina, where I studied mathematics, economics, and political science.</p>
+<p>Afterwards, I spent three years as a research assistant at the Board of Governors of the Federal Reserve in Washington, DC. First working with the section of economists focused on International Financial Stability and in my last year working for the Division Director for International Finance, Beth Anne Wilson.</p>
+<p>I moved to Providence in 2021 to pursue my graduate degree at Brown University.</p>
 
 
-<p>Listings for all of my published and unpublished research projects.</p>
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<div id="listing-working-papers" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-
+</main></div>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="published-papers" class="level2">
-<h2 class="anchored" data-anchor-id="published-papers">Published Papers</h2>
-<div id="listing-published-papers" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="business cycles,international,machine learning,text analysis" data-listing-date-sort="1677646800000" data-listing-file-modified-sort="1719956463370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
-<div class="thumbnail">
-<p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
-<p class="card-img-top"><img src="published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/fig11.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">Identifying Financial Crises Using Machine Learning on Textual Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('business cycles'); return false;">
-business cycles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('text analysis'); return false;">
-text analysis
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
-<div class="listing-date">
-Mar 1, 2023
-</div>
-<div class="listing-author">
-Mary Chen, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, Martin J. Sicilian
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="other-research" class="level2">
-<h2 class="anchored" data-anchor-id="other-research">Other Research</h2>
-<div id="listing-other-research" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="business cycles,international" data-listing-date-sort="1624334400000" data-listing-file-modified-sort="1719957147646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
-<div class="thumbnail">
-<p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
-<p class="card-img-top"><img src="other-research/2021-06-22-The-Global-Recovery/fig1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">The Global Recovery: Lessons from the Past</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('business cycles'); return false;">
-business cycles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
-<div class="listing-date">
-Jun 22, 2021
-</div>
-<div class="listing-author">
-Dario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -403,13 +186,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
