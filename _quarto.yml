@@ -14,7 +14,7 @@ website:
         text: Research
       - href: teaching/index.qmd
         text: Teaching
-      - href: static-content/cv.pdf
+      - href: CV/cv.qmd
         text: CV
     right:
       - href: https://github.com/matdehaven
