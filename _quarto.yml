@@ -20,6 +20,7 @@ website:
       - href: https://github.com/matdehaven
         icon: github
     tools-collapse: true
+    toggle-position: "right"
   page-footer: "Created using [Quarto](https://quarto.org), see my [repository](https://github.com/matdehaven/quarto-academic-website) for a template." 
 
 format:
