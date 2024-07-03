@@ -16,12 +16,9 @@ website:
         text: Teaching
       - href: CV/cv.qmd
         text: CV
-    tools:
-      
-    tools-collapse: true
     toggle-position: "right"
   page-footer:
-    center: "Created with [Quarto](https://quarto.org); see my template [repository](https://github.com/matdehaven/quarto-academic-website)." 
+    center: "Created with [Quarto](https://quarto.org). [Source code](https://github.com/matdehaven/matdehaven.github.io)."
     right:
       - href: https://github.com/matdehaven
         icon: github
