@@ -7,18 +7,22 @@ about:
     - icon: github
       text: Github
       href: https://github.com/matdehaven
+      target: _blank
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/matthew-dehaven-067856b6/
+      target: _blank
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=q_4egM0AAAAJ&hl=en
+      target: _blank
     - icon: envelope-fill
       text: Email
       href: mailto:matthew_dehaven@brown.edu
     - icon: file-earmark-person
       text: CV
       href: CV/cv.pdf
+      target: _blank
 ---
 
 I grew up in Pittsboro, North Carolina in the middle of the woods.

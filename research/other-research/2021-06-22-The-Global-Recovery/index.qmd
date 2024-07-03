@@ -9,7 +9,7 @@ date: "June 22, 2021"
 categories: ["business cycles", "international"]
 ---
 
-The official [FEDS Note](https://www.federalreserve.gov/econres/notes/feds-notes/the-global-recovery-lessons-from-the-past-20210622.html).
+The official [FEDS Note](https://www.federalreserve.gov/econres/notes/feds-notes/the-global-recovery-lessons-from-the-past-20210622.html){target="_blank"}.
 
 # Summary
 

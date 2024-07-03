@@ -18,7 +18,8 @@ website:
         text: CV
     toggle-position: "right"
   page-footer:
-    center: "Created with [Quarto](https://quarto.org). [Source code](https://github.com/matdehaven/matdehaven.github.io)."
+    left: "[Source code](https://github.com/matdehaven/matdehaven.github.io)."
+    center: "Created with [Quarto](https://quarto.org)."
     right:
       - href: https://github.com/matdehaven
         icon: github

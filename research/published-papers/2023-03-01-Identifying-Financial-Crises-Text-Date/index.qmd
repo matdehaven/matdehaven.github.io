@@ -10,7 +10,7 @@ date: "March 1, 2023"
 categories: ["business cycles", "international", "machine learning", "text analysis"]
 ---
 
-[Published Article](https://www.mdpi.com/1911-8074/16/3/161) in the Journal of Risk and Financial Management.
+[Published Article](https://www.mdpi.com/1911-8074/16/3/161){target="_blank"} in the Journal of Risk and Financial Management.
 
 # Abstract
 

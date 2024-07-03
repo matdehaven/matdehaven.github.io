@@ -9,9 +9,7 @@ A first year graduate course aimed to prepare students with practical skills for
 My Role
 : Course Designer and Instructor
 
-[Course Website](https://matthewdehaven.com/course-applied-economics-analysis/)
-
-[Course Syllabus](https://matthewdehaven.com/course-applied-economics-analysis/)
+[Course Website and Syllabus](https://matthewdehaven.com/course-applied-economics-analysis/){target="_blank"}
 
 # Course Description
 
@@ -19,4 +17,4 @@ This course prepares students to conduct independent research by providing the n
 
 # Teaching Reviews
 
-[Spring 2024](Spring2024ECON2020S01ECON2020Spring24S01AppliedEconomicsAnalysis-S01_MatthewDeHaven.pdf)
+[Spring 2024](Spring2024ECON2020S01ECON2020Spring24S01AppliedEconomicsAnalysis-S01_MatthewDeHaven.pdf){target="_blank"}
