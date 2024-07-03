@@ -81,7 +81,7 @@
     "href": "research/index.html#other-research",
     "title": "Research",
     "section": "Other Research",
-    "text": "Other Research\n\n\n\n\n\n\n\n\n\n\nThe Global Recovery: Lessons from the Past\n\n\n\n\n\n\nbusiness cycles\n\n\ninternational\n\n\n\n\n\n\nJun 22, 2021\n\n\nDario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello\n\n\n\n\n\n\nNo matching items"
+    "text": "Other Research\n\n\n\n\n\n\n\n\n\n\nMinute-by-Minute: Financial Markets’ Reaction to the 2020 U.S. Election\n\n\n\n\n\n\nfinancial\n\n\ninternational\n\n\npolitical economy\n\n\n\n\n\n\nJul 3, 2024\n\n\nMatthew DeHaven, Hannah Firestone, Chris Webster\n\n\n\n\n\n\n\n\n\n\n\n\nThe Global Recovery: Lessons from the Past\n\n\n\n\n\n\nbusiness cycles\n\n\ninternational\n\n\n\n\n\n\nJun 22, 2021\n\n\nDario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/other-research/2021-06-22-The-Global-Recovery/index.html",
@@ -103,5 +103,19 @@
     "title": "Teaching",
     "section": "",
     "text": "Listings of all of my teaching resources.\n\n\n\n\n\n\n\n\n\nTitle\n\n\n\n\n\n\nApplied Economics Analysis\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html",
+    "href": "research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html",
+    "title": "Minute-by-Minute: Financial Markets’ Reaction to the 2020 U.S. Election",
+    "section": "",
+    "text": "Authors’ note: This short article was written June 2021, but never shared or published till July 3, 2024."
+  },
+  {
+    "objectID": "research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html#footnotes",
+    "href": "research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html#footnotes",
+    "title": "Minute-by-Minute: Financial Markets’ Reaction to the 2020 U.S. Election",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWe thank Ricardo Correa and Juan M. Londono for their useful comments. All errors remain our own.↩︎\nThe weighted-average error of polls within three weeks of the 2020 election was 4.2 percentage points in favor of the Democratic party candidate, compared to a historical average of 1.3 percentage points in favor of the Democratic party candidate (Silver, 2021).↩︎\nOur AFE-USD Index measures the exchange rate of the dollar against a basket of major advanced foreign economy currencies (CAD, CHF, EUR, GBP, JPY, and SEK), borrowing methodology from the Federal Reserve Dollar Indexes (von Beschwitz et al., 2019). Likewise, our EME-USD Index does the same using emerging market economy currencies (CNY, HKD, MXN, SGD, and THB). Currencies were selected for inclusion in the indexes based on the availability of minutely price data on election night. An increase in the index indicates a depreciation of the dollar.↩︎\nThroughout this note, Treasury bond movements are quoted in yields (bond yields rise as prices fall.)↩︎\nFor the purposes of our analysis, the inclusion of the Trifecta is similar to adding an interaction term between the Democratic Presidency and Democratic Senate probabilities.↩︎\nThis includes the two independents who caucus with the Democrats in the Democratic total.↩︎"
   }
 ]
