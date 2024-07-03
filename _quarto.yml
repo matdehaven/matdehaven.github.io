@@ -17,12 +17,14 @@ website:
       - href: CV/cv.qmd
         text: CV
     tools:
-      - href: https://github.com/matdehaven
-        icon: github
+      
     tools-collapse: true
     toggle-position: "right"
-  page-footer: "Created using [Quarto](https://quarto.org), see my [repository](https://github.com/matdehaven/quarto-academic-website) for a template." 
-
+  page-footer:
+    center: "Created with [Quarto](https://quarto.org); see my template [repository](https://github.com/matdehaven/quarto-academic-website)." 
+    right:
+      - href: https://github.com/matdehaven
+        icon: github
 format:
   html:
     theme: 
