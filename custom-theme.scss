@@ -36,6 +36,9 @@ $dark:          $gray-800 !default;
 $navbar-bg:   $gray-100 !default;
 $navbar-fg:   $black !default;
 
+// Set Website Title font size to small
+$navbar-brand-font-size: 0.875rem !default;
+
 /*-- scss:rules --*/ 
 
 .navbar {
