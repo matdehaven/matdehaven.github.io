@@ -19,7 +19,7 @@ website:
     toggle-position: "right"
   page-footer:
     left: "[Source code](https://github.com/matdehaven/matdehaven.github.io)."
-    center: "Created with [Quarto](https://quarto.org)."
+    center: © 2024  &middot; Created with [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) .
     right:
       - href: https://github.com/matdehaven
         icon: github
