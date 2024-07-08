@@ -1,7 +1,9 @@
 ---
 format: 
-  html: default
+  html:
+    template-partials: ../../../custom/title-block.html
   pdf: default
+format-links: false ## Set to true to show "Other Formats: PDF" on website
 title: "Minute-by-Minute:  Financial Markets' Reaction to the 2020 U.S. Election"
 author: 
   - Matthew DeHaven
@@ -9,6 +11,14 @@ author:
   - Chris Webster
 date: "July 03, 2024"
 categories: ["financial", "international", "political economy"]
+pdf-url: https://arxiv.org/pdf/2407.03527
+external-url: https://arxiv.org/abs/2407.03527
+external-name: arXiv
+citation:
+  type: article
+  number: "arXiv:2407.03527"
+  archive: "arXiv:2407.03527"
+  url: https://arxiv.org/abs/2407.03527
 ---
 
 Authors' note: This short article was written June 2021, but never shared or published till July 3, 2024.

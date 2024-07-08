@@ -1,29 +1,21 @@
-# quarto-academic-website
-A template for a basic academic website made using [Quarto](https://quarto.org).
-It is meant to be a starting point for a Quarto based website, as Quarto has many more options than what is shown here.
+# My Personal Academic Website
 
-The website contains:
+Built using [Quarto](https://quarto.org).
 
-- Home page
-  - profile picture
-  - icons for links to Github, etc.
-- About page
-- Research page
-  - Automatically lists paper/project pages in the "research/" folder
-- CV pdf
+See my [quarto-academic-website](https://github.com/matdehaven/quarto-academic-website) Github repository for a template if you'd like to try making one yourself.
 
-## How to Use
+My own website has a few additions.
 
-Click "Use this template".
+## Useful Quarto Documentation Links
 
-## Customization
+[Creating Citeable Articles](https://quarto.org/docs/authoring/create-citeable-articles.html)
 
-- First, [install Quarto](https://quarto.org/docs/get-started/)
+# Customization
 
-Add your own "profile.jpg" and "cv.pdf" to the repository.
-Then edit the text and options in each ".qmd" file.
-The "_quarto.yml" controls some site-wide settings, like the navbar links.
-You can create new papers in the listing by adding new ".qmd" files to the "research/" folder.
-Change the "favicon" by replacing "logo.png" with a new image.
-You can generate favicons at [favicon.io](https://favicon.io).
-You just need one of the png files, not all of the versions.
+## Custom HTML Title-block Templates
+
+[Quarto's Title Blocks Documentation](https://quarto.org/docs/authoring/title-blocks.html)
+
+The [default Quarto title block](https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/templates/title-block.html) for articles.
+
+I added two possible buttons to display a `pdf-link` and a `external-link` with a given `external-name`.  These are useful for linking to published versions of journal articles.

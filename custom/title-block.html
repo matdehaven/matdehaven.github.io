@@ -1,0 +1,43 @@
+<header id="title-block-header" class="quarto-title-block default">
+  <div class="quarto-title">
+  $if(title)$
+  <h1 class="title">$title$</h1>
+  $endif$
+  $if(subtitle)$
+  <p class="subtitle lead">$subtitle$</p>
+  $endif$
+  $if(categories)$
+    $if(quarto-template-params.title-block-categories)$
+  <div class="quarto-categories">
+    $for(categories)$
+    <div class="quarto-category">$categories$</div>
+    $endfor$
+  </div>
+    $endif$
+  $endif$
+  </div>
+  
+  $if(hide-description)$
+  $elseif(description)$
+  <div>
+    <div class="description">
+      $description$
+    </div>
+  </div>
+  $endif$
+  
+  $title-metadata.html()$
+  
+<!-- Custom HTML to add PDF-url and article-url if given -->
+<div>
+  $if(pdf-url)$
+  <a href=$pdf-url$ title = "PDF"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.65em;"><i class="bi-file-pdf"></i> PDF</button></a>
+  $endif$
+  $if(external-url)$
+  <a href=$external-url$ title = "External Link"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.65em;"><i class="bi-box-arrow-up-right"></i> $if(external-name)$$external-name$$endif$</button></a>
+  $endif$ 
+</div>
+
+</header>
+  
+

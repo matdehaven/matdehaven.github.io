@@ -1,4 +1,7 @@
 ---
+format: 
+  html:
+    template-partials: ../../../custom/title-block.html
 title: "The Global Recovery: Lessons from the Past"
 author: 
   - Dario Caldara
@@ -7,9 +10,17 @@ author:
   - Matteo Iacoviello
 date: "June 22, 2021"
 categories: ["business cycles", "international"]
+# pdf-url:
+external-url: https://www.federalreserve.gov/econres/notes/feds-notes/the-global-recovery-lessons-from-the-past-20210622.html
+external-name: FEDS Note
+citation:
+  type: article
+  container-title: "FEDS Notes"
+  publisher: Board of Governors of the Federal Reserve System
+  publisher-place: "Washington"
+  doi: 10.17016/2380-7172.2931
+  url: https://www.federalreserve.gov/econres/notes/feds-notes/the-global-recovery-lessons-from-the-past-20210622.html
 ---
-
-The official [FEDS Note](https://www.federalreserve.gov/econres/notes/feds-notes/the-global-recovery-lessons-from-the-past-20210622.html){target="_blank"}.
 
 # Summary
 
@@ -20,8 +31,8 @@ We find that, following severe contractions, output typically remains well below
 We argue that outsized policy interventions in response to COVID-19 provided unprecedented support to households and firms, preventing a more prolonged downturn. Furthermore, productivity is likely to be more resilient compared to past slumps, which should help to sustain the pace of the recovery in the coming years.
 
 
-#### Figure 1: GDP Recovery after "Severe Recessions"
-![](fig1.png)
+::: {#fig-1 style="font-size: 60%;"}
+![](fig1.png){width=5in}
 
-# Citation
-Caldara, Dario, Matthew DeHaven, Francesco Ferrante, and Matteo Iacoviello (2021). "The Global Recovery: Lessons from the Past," FEDS Notes. Washington: Board of Governors of the Federal Reserve System, June 22, 2021, https://doi.org/10.17016/2380-7172.2931.
+GDP Recovery after "Severe Recessions"
+:::
