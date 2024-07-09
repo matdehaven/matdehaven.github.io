@@ -10,4 +10,4 @@ listing:
     - "*.qmd"
 ---
 
-Listings of all of my teaching resources.
+All of my teaching resources.

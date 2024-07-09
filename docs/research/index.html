@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-image","listing-categories"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -107,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-author","listing-date","listing-categories","listing-image","listing-pdf-url","listing-external-url","listing-external-name","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -135,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-format-links","listing-title","listing-author","listing-date","listing-categories","listing-image","listing-pdf-url","listing-external-url","listing-external-name","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -267,13 +267,13 @@ window.Quarto = {
 </header>
 
 
-<p>Listings for all of my published and unpublished research projects.</p>
+<p>All of my published and unpublished research projects.</p>
 <section id="working-papers" class="level2">
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<div id="listing-working-papers" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
+<div id="listing-working-papers" class="quarto-listing quarto-listing-container-custom">
 
-</div>
+  <p class="text-center" style="font-size: 0.85rem;">No Content</p>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -281,48 +281,51 @@ No matching items
 </section>
 <section id="published-papers" class="level2">
 <h2 class="anchored" data-anchor-id="published-papers">Published Papers</h2>
-<div id="listing-published-papers" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="business cycles,international,machine learning,text analysis" data-listing-date-sort="1677646800000" data-listing-file-modified-sort="1720475453123" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-<div class="thumbnail">
-<p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
-<p class="card-img-top"><img src="published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/fig11.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></p>
+<div id="listing-published-papers" class="quarto-listing quarto-listing-container-custom">
+
+<div class="archive list">
+
+  
+
+  <div class="quarto-post image-right" data-index="0" data-categories="business cycles,international,machine learning,text analysis" data-listing-date-sort="1677646800000" data-listing-file-modified-sort="1720531863406" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+
+      
+      <div class="thumbnail" style="flex-basis: 30%">
+        <a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
+              <p><img src="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/fig11.png" class="thumbnail-image" style="margin-top: 0rem;"></p>
+        </a>
+      </div>
+      
+      <div class="body">
+          <h4 class="no-anchor listing-title" style="margin-top: 0.25rem"><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
+            Identifying Financial Crises Using Machine Learning on Textual Data</a>
+          </h4>
+          <div class="listing-subtitle"><a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a></div>
+
+          <div class="metadata">
+            <span>
+            
+            
+              <a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"> Mar 1, 2023. </a> 
+            
+            
+              <a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"> Mary Chen, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, Martin J. Sicilian. </a> 
+            
+            
+            <a href="https://www.mdpi.com/1911-8074/16/3/161" title="External Link" target="_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style="padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-box-arrow-up-right"></i> JRFM</button></a>
+            
+            
+            <a href="https://www.mdpi.com/1911-8074/16/3/161/pdf?version=1677727929" title="PDF" target="_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style="padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-file-pdf"></i> PDF</button></a>
+            
+          </span>
+          </div>
+
+      </div>
+
+  </div>
+  
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">Identifying Financial Crises Using Machine Learning on Textual Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('business cycles'); return false;">
-business cycles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('text analysis'); return false;">
-text analysis
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html" class="no-external">
-<div class="listing-date">
-Mar 1, 2023
-</div>
-<div class="listing-author">
-Mary Chen, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, Martin J. Sicilian
-</div>
-</a>
-</div>
-</div>
-</div>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -330,78 +333,87 @@ No matching items
 </section>
 <section id="other-research" class="level2">
 <h2 class="anchored" data-anchor-id="other-research">Other Research</h2>
-<div id="listing-other-research" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="financial,international,political economy" data-listing-date-sort="1719979200000" data-listing-file-modified-sort="1720474765477" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3259">
-<div class="thumbnail">
-<p><a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external"></a></p><a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external">
-<p class="card-img-top"><img src="other-research/2021-06-01-Minute-by-Minute/figs/fig1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external"></a></p>
+<div id="listing-other-research" class="quarto-listing quarto-listing-container-custom">
+
+<div class="archive list">
+
+  
+
+  <div class="quarto-post image-right" data-index="0" data-categories="financial,international,political economy" data-listing-date-sort="1719979200000" data-listing-file-modified-sort="1720537337481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3259">
+
+      
+      <div class="thumbnail" style="flex-basis: 30%">
+        <a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external">
+              <p><img src="../research/other-research/2021-06-01-Minute-by-Minute/figs/fig1.png" class="thumbnail-image" style="margin-top: 0rem;"></p>
+        </a>
+      </div>
+      
+      <div class="body">
+          <h4 class="no-anchor listing-title" style="margin-top: 0.25rem"><a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external">
+            Minute-by-Minute:  Financial Markets' Reaction to the 2020 U.S. Election</a>
+          </h4>
+          <div class="listing-subtitle"><a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external"></a></div>
+
+          <div class="metadata">
+            <span>
+            
+            
+              <a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external"> Jul 3, 2024. </a> 
+            
+            
+              <a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external"> Matthew DeHaven, Hannah Firestone, Chris Webster. </a> 
+            
+            
+            <a href="https://arxiv.org/abs/2407.03527" title="External Link" target="_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style="padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-box-arrow-up-right"></i> arXiv</button></a>
+            
+            
+            <a href="https://arxiv.org/pdf/2407.03527" title="PDF" target="_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style="padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-file-pdf"></i> PDF</button></a>
+            
+          </span>
+          </div>
+
+      </div>
+
+  </div>
+  
+
+  <div class="quarto-post image-right" data-index="1" data-categories="business cycles,international" data-listing-date-sort="1624334400000" data-listing-file-modified-sort="1720537948538" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
+
+      
+      <div class="thumbnail" style="flex-basis: 30%">
+        <a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
+              <p><img src="../research/other-research/2021-06-22-The-Global-Recovery/fig1.png" class="thumbnail-image" style="margin-top: 0rem;"></p>
+        </a>
+      </div>
+      
+      <div class="body">
+          <h4 class="no-anchor listing-title" style="margin-top: 0.25rem"><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
+            The Global Recovery: Lessons from the Past</a>
+          </h4>
+          <div class="listing-subtitle"><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></div>
+
+          <div class="metadata">
+            <span>
+            
+            
+              <a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"> Jun 22, 2021. </a> 
+            
+            
+              <a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"> Dario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello. </a> 
+            
+            
+            <a href="https://www.federalreserve.gov/econres/notes/feds-notes/the-global-recovery-lessons-from-the-past-20210622.html" title="External Link" target="_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style="padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-box-arrow-up-right"></i> FEDS Note</button></a>
+            
+            
+          </span>
+          </div>
+
+      </div>
+
+  </div>
+  
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external">Minute-by-Minute: Financial Markets’ Reaction to the 2020 U.S. Election</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('financial'); return false;">
-financial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('political economy'); return false;">
-political economy
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external">
-<div class="listing-date">
-Jul 3, 2024
-</div>
-<div class="listing-author">
-Matthew DeHaven, Hannah Firestone, Chris Webster
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="business cycles,international" data-listing-date-sort="1624334400000" data-listing-file-modified-sort="1720474710692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
-<div class="thumbnail">
-<p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
-<p class="card-img-top"><img src="other-research/2021-06-22-The-Global-Recovery/fig1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">The Global Recovery: Lessons from the Past</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('business cycles'); return false;">
-business cycles
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('international'); return false;">
-international
-</div>
-</div>
-</div>
-<div class="metadata">
-<a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external">
-<div class="listing-date">
-Jun 22, 2021
-</div>
-<div class="listing-author">
-Dario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello
-</div>
-</a>
-</div>
-</div>
-</div>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>

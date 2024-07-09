@@ -10,6 +10,7 @@ author:
   - Matteo Iacoviello
 date: "June 22, 2021"
 categories: ["business cycles", "international"]
+image: fig1.png
 # pdf-url:
 external-url: https://www.federalreserve.gov/econres/notes/feds-notes/the-global-recovery-lessons-from-the-past-20210622.html
 external-name: FEDS Note
