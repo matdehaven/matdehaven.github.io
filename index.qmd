@@ -15,6 +15,9 @@ about:
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.com/citations?user=q_4egM0AAAAJ&hl=en
       target: _blank
+    - text: "{{< ai ssrn size=2xl >}}"
+      href: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5883953
+      target: _blank
     - icon: envelope-fill
       text: Email
       href: mailto:matthew_dehaven@brown.edu
