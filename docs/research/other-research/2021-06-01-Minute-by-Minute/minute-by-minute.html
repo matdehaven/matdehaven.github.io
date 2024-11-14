@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.552">
+<meta name="generator" content="quarto-1.6.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,7 +11,7 @@
 <meta name="author" content="Chris Webster">
 <meta name="dcterms.date" content="2024-07-03">
 
-<title>Matthew DeHaven - Minute-by-Minute: Financial Markets’ Reaction to the 2020 U.S. Election</title>
+<title>Minute-by-Minute: Financial Markets’ Reaction to the 2020 U.S. Election – Matthew DeHaven</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,10 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-466f6054e8e81d72c35894b1adfbeab1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -198,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Prediction markets offer a unique source of data on political and economic events. Betting on U.S. elections has been commonplace since at least the late 1800s (Rhode &amp; Strumpf, 2004; Wolfers, 2009), and the advent of the internet in the 1990s introduced centralized ‘idea futures’ markets with many users (Hanson, 1996). These markets match two users to purchase a ‘yes’ and ‘no’ share for a contract (that is, “Will candidate X be elected?”) at a price ranging from 0 to 1. In an efficient market, the resulting price of a ‘yes’ share can be interpreted as the probability of the event ‘X’ happening. For example, if the price of a ‘yes’ share was $0.60 and a user predicted the true probability of the event to be 0.9, the user would buy a ‘yes’ share, making an expected profit of $0.30 per share. If many buyers expected the same probability of 0.9 the price of the ‘yes’ share would rise closer to $0.90. With enough users and enough information, the market price converges to the expected probability of the event occurring.</p>
 <p>Since the popularization of these betting markets in the 1990s, there has been considerable research on their utility in predicting economic variables (Hahn &amp; Tetlock, 2005; Snowberg et al., 2013), forecasting elections (Arrow et al., 2008; Reade &amp; Vaughan Williams, 2019), and aiding corporate decision making (O’Leary, 2015; Plott &amp; Chen, 2002; Spears et al., 2009). The data in these studies is often at the daily level, or even more infrequent. In this note, we take advantage of a novel source of minutely prediction market data from PredictIt. PredictIt is an online prediction market in the U.S., offering markets on various U.S. and global political events. For each election (i.e.&nbsp;party control of the Senate and Presidency), we get minutely data on the market ‘yes’ and ‘no’ prices, and we take the most recent trade to arrive at the market-implied event probability.</p>
 <p>To isolate financial markets’ reaction to the election, we narrow the time range to election night (November 3, 2020) and the following day. Over the course of the night, there was a remarkable shift in the perceived probability of either the Democratic or Republican candidate winning the presidential election. The Democratic candidate’s probability of winning the election (Democratic Presidency Probability) ranged from about 20% to 90% over the course of 30 hours, providing enough variation to find statistically significant relationships. As shown in Panel A of Figure 1, at 6:00 p.m. on November 3, the Democratic candidate’s probability of winning the presidency was close to 70%. As results were published, the probability fell all the way to 20%, before steadily rebounding late into the night.</p>
-<div id="fig-1" class="quarto-figure quarto-figure-center quarto-float anchored" style="font-size: 60%;">
+<div id="fig-1" class="quarto-float quarto-figure quarto-figure-center anchored" style="font-size: 60%;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <p><img src="figs/fig1.png" class="img-fluid figure-img" style="width:5in"></p>
@@ -217,7 +217,7 @@ Figure&nbsp;1: Markets during Election Night 2020.
 <h1>Initial Market Reaction</h1>
 <p>In Panel A of Figure 2, we plot the Democratic Presidency Probability against the change in the AFE-USD index across the same time period as above, 6pm November 3rd through November 4th. The resulting statistically significant coefficient—highlighted in red—of a simple linear regression, quantifies the market’s pricing of a Democratic over a Republican victory in the race for the presidency, in this case implying a depreciation of just over 1% in the price of the dollar.</p>
 <p>Using the same time window of minutely data, we can expand our scope to a host of markets that are traded overnight: futures for the S&amp;P 500 index, NASDAQ, and Russell 2000 stock market indexes, the EME-USD Index, future prices for oil (measured by WTI Crude) and the VIX stock market volatility index, and the yield of 10-year treasury bonds. Panel B of Figure 2 plots the resulting coefficients of a linear regression between each of these financial markets and the Democratic Presidency Probability, with a 95% confidence interval shown in bars around each estimate. Every relationship is statistically significant, and only the VIX and the 10-Year Treasury yield<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> have a negative coefficient with the Democratic Presidency Probability.</p>
-<div id="fig-2" class="quarto-figure quarto-figure-center quarto-float anchored" style="font-size: 60%;">
+<div id="fig-2" class="quarto-float quarto-figure quarto-figure-center anchored" style="font-size: 60%;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <p><img src="figs/fig2.png" class="img-fluid figure-img" style="width:5in"></p>
@@ -235,7 +235,7 @@ Figure&nbsp;2: Financial Markets and the Presidency
 <h1>A Reduction in Uncertainty</h1>
 <p>It is possible that markets were not only pricing in a Democratic or Republican victory for the presidency, but also the uncertainty of the election outcome. In face of a large, uncertain event, financial markets may respond with a “risk-off” stance, putting investments into safer assets until the uncertainty is concluded. After the event has resolved, markets then take on more risk and lower their expectation of future volatility.</p>
 <p>This pricing-in of uncertainty is clear in the VIX futures price, plotted against the Democratic Presidency Probability in Panel A of Figure 3. The simple linear regression, in blue, has a fairly strong fit to the data, as demonstrated by its R-squared value of about 0.6, plotted in Panel B. However, by adding an additional variable capturing the certainty of the election outcome (calculated as the absolute value of the distance from 50-50 odds), the model fit of a specification we label “Linear + Certainty” is even higher. The strength of the relationship is also visually convincing in Panel A of Figure 3, with the “Linear + Certainty” model plotted with the red line. This suggests that to some extent, market participants were responding to the level of certainty of the presidential outcome instead of the outcome itself.</p>
-<div id="fig-3" class="quarto-figure quarto-figure-center quarto-float anchored" style="font-size: 60%;">
+<div id="fig-3" class="quarto-float quarto-figure quarto-figure-center anchored" style="font-size: 60%;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <p><img src="figs/fig3.png" class="img-fluid figure-img" style="width:5in"></p>
@@ -251,7 +251,7 @@ Figure&nbsp;3: Adding Certainty to the Equation
 <section id="controlling-for-other-elections" class="level1">
 <h1>Controlling for Other Elections</h1>
 <p>Earlier we noted that by narrowing the time window to election night, we were reducing the probability that other events could be affecting financial markets. Our analysis so far, however, abstracts from a host of other elections that take place at the same time as the U.S. presidential election. There are two other crucial outcomes: control of the Senate and of the House of Representatives. Democrats were the favorites to win control of the House, and the probability of that outcome did not move much over the course of the night (ranging from 88% to 99%). Control of the Senate, on the other hand, moved substantially, favoring Democrats heading into election night (about 70%) and completely switching by the end of the following day with a Republican win probable (about 80%). An additional market on PredictIt asked what the probability was of a Democratic “Trifecta” across the federal government, with control of the Senate, House, and Presidency. The resulting coefficients of regressing various financial markets on these four variables—Democratic Presidency Probability, Presidential Certainty, Democratic Senate Probability, and Democratic Trifecta Probability—are shown in Figure 4, which paints the most complete picture of how the various elections of 2020 were priced in by markets.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
-<div id="fig-4" class="quarto-figure quarto-figure-center quarto-float anchored" style="font-size: 60%;">
+<div id="fig-4" class="quarto-float quarto-figure quarto-figure-center anchored" style="font-size: 60%;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <p><img src="figs/fig4a.png" class="img-fluid figure-img" style="width:5in"></p>
@@ -272,7 +272,7 @@ Figure&nbsp;4: A Multivariable Picture of Markets’ Reactions
 <h1>The Georgia Runoffs and Control of the Senate</h1>
 <p>The November election left the Senate split with 50 Republican seats to 48 for the Democrats.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> The final two seats were both in Georgia as no candidate won 50% of the vote, triggering automatic runoffs that would decide control of the Senate, with Democrats only needing 50 seats to hold a majority (using the Vice President’s vote to break ties).</p>
 <p>We repeat the analysis above, focusing instead on January 5th from 6:00 p.m. to midnight, as the final results of the election came in. This time there truly was only one election outcome (two races) and the result was unexpected, causing a steady shift in the odds as the votes were tallied. In Panel A, the strong relationship between the Democratic Senate Probability and the 10-Year Treasury Price is apparent. The strong increase in the VIX paints a picture of the surprise outcome introducing volatility into the market as prices adjust. In addition, the movements may reveal an expectation of a larger stimulus package because of the prospect of a unified government being able to pass bills more easily (consistent with results in Figure 4). Most notably, the implied increase in the 10-Year Treasury is quite significant and aligns well with this story, on the textbook macroeconomic assumption that higher government spending leads to higher future interest rates. The opposite reactions of the Russell 2000 compared to the S&amp;P 500 and NASDAQ are also revealing, again showing the importance of this political event to the financial markets.</p>
-<div id="fig-5" class="quarto-figure quarto-figure-center quarto-float anchored" style="font-size: 60%;">
+<div id="fig-5" class="quarto-float quarto-figure quarto-figure-center anchored" style="font-size: 60%;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <p><img src="figs/fig5.png" class="img-fluid figure-img" style="width:5in"></p>
@@ -369,18 +369,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -412,7 +401,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -420,7 +431,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

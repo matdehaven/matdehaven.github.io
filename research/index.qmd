@@ -1,6 +1,15 @@
 ---
 title: "Research"
 listing:
+  - id: work-in-progress
+    type: default
+    template: ../custom/research-listings.ejs
+    categories: true
+    fields: [title, author, categories]
+    contents:
+      - "work-in-progress/**/*.qmd"
+    exclude:
+      title: "Placeholder"
   - id: working-papers
     type: default
     template: ../custom/research-listings.ejs
@@ -27,6 +36,12 @@ listing:
 ---
 
 All of my published and unpublished research projects.
+Click on each project to learn more.
+
+## Work in Progress
+
+:::{#work-in-progress}
+:::
 
 ## Working Papers
 
