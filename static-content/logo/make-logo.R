@@ -47,14 +47,14 @@ ggsave(
   bg = "transparent"
 )
 
-## Save one as a png with 120 x 120 pixels
+## Save one as a png with 180 x 180 pixels
 ggsave(
-  "./static-content/logo/logo-120x120.png",
+  "./static-content/logo/logo-180x180.png",
   p,
   width = 1,
   height = 1,
   scale = 1,
-  dpi = 120,
+  dpi = 180,
   bg = "transparent"
 )
 
