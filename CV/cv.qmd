@@ -1,6 +1,9 @@
 ---
 format:
-  cv-html: default
+  cv-html:
+    theme: 
+      - simplex
+      - ../custom-theme.scss
   cv-pdf: 
     keep-tex: true
 

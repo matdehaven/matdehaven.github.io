@@ -25,6 +25,8 @@ website:
         icon: github
 format:
   html:
+    include-in-header:
+      text: <link rel="apple-touch-icon" href="static-content/logo/logo-32x32.png">
     theme: 
       - simplex
       - custom-theme.scss

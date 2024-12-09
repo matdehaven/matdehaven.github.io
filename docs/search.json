@@ -21,11 +21,18 @@
     "text": "Work Experience\n\nFederal Reserve Board of Governors\n\n2018 — 2021\n\nResearch Assistant\n\nWorked in the International Finance Division studying International Financial Stability. Daily work contained a mix of policy and research projects. Built experience coding in R and Python."
   },
   {
-    "objectID": "CV/cv.html#presentations-and-workshops",
-    "href": "CV/cv.html#presentations-and-workshops",
-    "title": "Curriculum Vitae",
-    "section": "Presentations and Workshops",
-    "text": "Presentations and Workshops\n\nAttended: Southern Economic Association (November 23-25, 2024)"
+    "objectID": "CV/cv.html#teaching",
+    "href": "CV/cv.html#teaching",
+    "title": "Matthew DeHaven",
+    "section": "Teaching",
+    "text": "Teaching\n\nAs Teaching Fellow (developed course and delivered all lectures)\n\nApplied Economics Analysis (First Year Graduate Course)\n\n2024, 2025\n\n\n\nAs Teaching Assistant\n\nIntermediate Macroeconomics\n\n2023\n\n\nMacroeconomics (First Year Graduate Course)\n\n2022, 2023"
+  },
+  {
+    "objectID": "CV/cv.html#presentations",
+    "href": "CV/cv.html#presentations",
+    "title": "Matthew DeHaven",
+    "section": "Presentations",
+    "text": "Presentations\nAttended: Southern Economic Association (November 23-25, 2024)"
   },
   {
     "objectID": "teaching/applied-economic-analysis/index.html",
@@ -56,11 +63,11 @@
     "text": "All of my published and unpublished research projects. Click on each project to learn more."
   },
   {
-    "objectID": "research/index.html#works-in-progress",
-    "href": "research/index.html#works-in-progress",
+    "objectID": "research/index.html#work-in-progress",
+    "href": "research/index.html#work-in-progress",
     "title": "Research",
-    "section": "Works in Progress",
-    "text": "Works in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            The Market Price of Risk and Macro-Financial Dynamics\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte, Tara Iyer.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
+    "section": "Work in Progress",
+    "text": "Work in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            The Market Price of Risk and Macro-Financial Dynamics\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte, Tara Iyer.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "research/index.html#working-papers",
@@ -84,8 +91,8 @@
     "text": "Other Research\n\n\n\n\n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            Minute-by-Minute:  Financial Markets' Reaction to the 2020 U.S. Election\n          \n          \n\n          \n            \n            \n            \n               Jul 3, 2024.  \n            \n            \n               Matthew DeHaven, Hannah Firestone, Chris Webster.  \n            \n            \n              \n            \n            \n              arXiv\n            \n            \n              PDF\n            \n          \n          \n\n      \n\n  \n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            The Global Recovery: Lessons from the Past\n          \n          \n\n          \n            \n            \n            \n               Jun 22, 2021.  \n            \n            \n               Dario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello.  \n            \n            \n              \n                  FEDS Notes.  \n              \n            \n            \n              FEDS Note\n            \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
   },
   {
-    "objectID": "research/works-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
-    "href": "research/works-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
+    "objectID": "research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
+    "href": "research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
     "title": "The Price of Risk Drives the Business Cycle",
     "section": "",
     "text": "Description\nA companion project to The Market Price of Risk and Macro-Financial Dynamics.\nThis project explores the direct relationship between the price of risk and business cycles by diving into the estimation and identification of VARs, leveraging the heteroskedasticity implied by the time varying price of risk."
@@ -98,8 +105,8 @@
     "text": "Abstract\nWe use machine learning techniques on textual data to identify financial crises. One of the challenges in financial crisis management is being able to determine whether a country is in a crisis or not, or what type of crisis a country is in, especially in real time. The onset of a crisis and its severity also has implications for real economic activity and, hence can be a valuable input into macroprudential, monetary, and fiscal policy. The academic literature and the policy realm rely mostly on expert judgment to determine crises. Consequently, the identification of crises and the buildup-phases of vulnerabilities are usually determined with hindsight. Although we can identify and forecast a good portion of various degrees of crises worldwide with traditional econometric techniques using readily available markets data, we find that textual data helps in reducing false-positives and false-negatives in out-of-sample testing of such models, especially when the crises are considered more severe.\n\n\n\n\n\n\nFigure 1: US OECD Economic Outlook with LIME Highlighting (Figure 11 in the text)\n\n\n\n\n\n\n\nCitationBibTeX citation:@article{chen2023,\n  author = {Chen, Mary and DeHaven, Matthew and Kitschelt, Isabel and\n    Jung Lee, Seung and J. Sicilian, Martin},\n  title = {Identifying {Financial} {Crises} {Using} {Machine} {Learning}\n    on {Textual} {Data}},\n  journal = {Journal of Risk and Financial Management},\n  volume = {16},\n  number = {3},\n  pages = {161},\n  date = {2023-03-01},\n  doi = {10.3390/jrfm16030161},\n  issn = {1911-8074},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nChen, Mary, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, and\nMartin J. Sicilian. 2023. “Identifying Financial Crises Using\nMachine Learning on Textual Data.” Journal of Risk and\nFinancial Management 16 (3): 161. https://doi.org/10.3390/jrfm16030161."
   },
   {
-    "objectID": "research/works-in-progress/2024-11-14-Market-Price-of-Risk/index.html",
-    "href": "research/works-in-progress/2024-11-14-Market-Price-of-Risk/index.html",
+    "objectID": "research/work-in-progress/2024-11-14-Market-Price-of-Risk/index.html",
+    "href": "research/work-in-progress/2024-11-14-Market-Price-of-Risk/index.html",
     "title": "The Market Price of Risk and Macro-Financial Dynamics",
     "section": "",
     "text": "Abstract\nWe propose the conditional volatility of GDP spanned by financial factors as a “Volatility Financial Conditions Index” (VFCI) and show its relation to the market price of risk. The VFCI exhibits superior explanatory power for stock and bond risk premia compared to other FCIs. We use a variety of identification strategies and instruments to demonstrate robust causal relationships between the VFCI and macroeconomic aggregates: a tightening of financial conditions as measured by the VFCI leads to a persistent contraction of output and triggers an immediate easing of monetary policy. Conversely, contractionary monetary policy shocks cause tighter financial conditions."
@@ -138,40 +145,5 @@
     "title": "Teaching",
     "section": "",
     "text": "All of my teaching resources.\n\n\n\n\n\n\n\n\n\nTitle\n\n\n\n\n\n\nApplied Economics Analysis\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/index.html#work-in-progress",
-    "href": "research/index.html#work-in-progress",
-    "title": "Research",
-    "section": "Work in Progress",
-    "text": "Work in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            The Market Price of Risk and Macro-Financial Dynamics\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte, Tara Iyer.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/work-in-progress/2024-11-14-Market-Price-of-Risk/index.html",
-    "href": "research/work-in-progress/2024-11-14-Market-Price-of-Risk/index.html",
-    "title": "The Market Price of Risk and Macro-Financial Dynamics",
-    "section": "",
-    "text": "Abstract\nWe propose the conditional volatility of GDP spanned by financial factors as a “Volatility Financial Conditions Index” (VFCI) and show its relation to the market price of risk. The VFCI exhibits superior explanatory power for stock and bond risk premia compared to other FCIs. We use a variety of identification strategies and instruments to demonstrate robust causal relationships between the VFCI and macroeconomic aggregates: a tightening of financial conditions as measured by the VFCI leads to a persistent contraction of output and triggers an immediate easing of monetary policy. Conversely, contractionary monetary policy shocks cause tighter financial conditions."
-  },
-  {
-    "objectID": "research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
-    "href": "research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
-    "title": "The Price of Risk Drives the Business Cycle",
-    "section": "",
-    "text": "Description\nA companion project to The Market Price of Risk and Macro-Financial Dynamics.\nThis project explores the direct relationship between the price of risk and business cycles by diving into the estimation and identification of VARs, leveraging the heteroskedasticity implied by the time varying price of risk."
-  },
-  {
-    "objectID": "CV/cv.html#teaching",
-    "href": "CV/cv.html#teaching",
-    "title": "Matthew DeHaven",
-    "section": "Teaching",
-    "text": "Teaching\n\nAs Teaching Fellow (developed course and delivered all lectures)\n\nApplied Economics Analysis (First Year Graduate Course)\n\n2024, 2025\n\n\n\nAs Teaching Assistant\n\nIntermediate Macroeconomics\n\n2023\n\n\nMacroeconomics (First Year Graduate Course)\n\n2022, 2023"
-  },
-  {
-    "objectID": "CV/cv.html#presentations",
-    "href": "CV/cv.html#presentations",
-    "title": "Matthew DeHaven",
-    "section": "Presentations",
-    "text": "Presentations\nAttended: Southern Economic Association (November 23-25, 2024)"
   }
 ]
