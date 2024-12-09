@@ -2,30 +2,30 @@
   {
     "objectID": "CV/cv.html",
     "href": "CV/cv.html",
-    "title": "Curriculum Vitae",
+    "title": "Matthew DeHaven",
     "section": "",
-    "text": "Email: matthew_dehaven@brown.edu"
+    "text": "Brown University\n\n2021 — present\n\nDoctor of Philosophy, Economics\n\n\nFurman University\n\n2014 — 2018\n\nBachelor’s of Science, Mathematics-Economics and Political Science"
   },
   {
     "objectID": "CV/cv.html#education",
     "href": "CV/cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "Education",
-    "text": "Education\nDoctor of Philosophy Economics\nBrown University, 2021 — present\nBachelor’s of Science Mathematics-Economics and Political Science\nFurman University, 2014 — 2018"
+    "title": "Matthew DeHaven",
+    "section": "",
+    "text": "Brown University\n\n2021 — present\n\nDoctor of Philosophy, Economics\n\n\nFurman University\n\n2014 — 2018\n\nBachelor’s of Science, Mathematics-Economics and Political Science"
   },
   {
     "objectID": "CV/cv.html#work-experience",
     "href": "CV/cv.html#work-experience",
-    "title": "Curriculum Vitae",
+    "title": "Matthew DeHaven",
     "section": "Work Experience",
-    "text": "Work Experience\n\nResearch Assistant\nFederal Reserve Board of Governors, 2018 — 2021\nWorked in the International Finance Division studying International Financial Stability. Daily work contained a mix of policy and research projects. Built experience coding in R and Python."
+    "text": "Work Experience\n\nFederal Reserve Board of Governors\n\n2018 — 2021\n\nResearch Assistant\n\nWorked in the International Finance Division studying International Financial Stability. Daily work contained a mix of policy and research projects. Built experience coding in R and Python."
   },
   {
     "objectID": "CV/cv.html#presentations-and-workshops",
     "href": "CV/cv.html#presentations-and-workshops",
     "title": "Curriculum Vitae",
     "section": "Presentations and Workshops",
-    "text": "Presentations and Workshops\n\nUpcoming\n\nSouthern Economic Association (November 23-25, 2024)"
+    "text": "Presentations and Workshops\n\nAttended: Southern Economic Association (November 23-25, 2024)"
   },
   {
     "objectID": "teaching/applied-economic-analysis/index.html",
@@ -159,5 +159,19 @@
     "title": "The Price of Risk Drives the Business Cycle",
     "section": "",
     "text": "Description\nA companion project to The Market Price of Risk and Macro-Financial Dynamics.\nThis project explores the direct relationship between the price of risk and business cycles by diving into the estimation and identification of VARs, leveraging the heteroskedasticity implied by the time varying price of risk."
+  },
+  {
+    "objectID": "CV/cv.html#teaching",
+    "href": "CV/cv.html#teaching",
+    "title": "Matthew DeHaven",
+    "section": "Teaching",
+    "text": "Teaching\n\nAs Teaching Fellow (developed course and delivered all lectures)\n\nApplied Economics Analysis (First Year Graduate Course)\n\n2024, 2025\n\n\n\nAs Teaching Assistant\n\nIntermediate Macroeconomics\n\n2023\n\n\nMacroeconomics (First Year Graduate Course)\n\n2022, 2023"
+  },
+  {
+    "objectID": "CV/cv.html#presentations",
+    "href": "CV/cv.html#presentations",
+    "title": "Matthew DeHaven",
+    "section": "Presentations",
+    "text": "Presentations\nAttended: Southern Economic Association (November 23-25, 2024)"
   }
 ]

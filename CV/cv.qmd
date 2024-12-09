@@ -1,38 +1,91 @@
 ---
 format:
-  html:
-    title: "Curriculum Vitae"
-    toc: true
-  pdf:
-    title: Matthew DeHaven
+  cv-html: default
+  cv-pdf: 
+    keep-tex: true
+
 ---
 
 
-Email: [matthew_dehaven@brown.edu](mailto:matthew_dehaven@brown.edu)
+::: {.content-visible when-format="pdf"}
+<!-- Name -->
+\begin{Huge}\begin{center}{Matthew DeHaven}\end{center}\end{Huge}
+\vspace{-0pt}
+
+<!-- Email & Website -->
+\begin{tabular}{ll}
+    Email: & {\fontfamily{qcr}\selectfont \href{mailto:matthew_dehaven@brown.edu}{matthew\_dehaven@brown.edu}} \\
+    Homepage: & {\fontfamily{qcr}\selectfont \href{https://matthewdehaven.com}{matthewdehaven.com}} \\
+\end{tabular}
+:::
+
 
 ## Education
 
-**Doctor of Philosophy** Economics
+:::{.cv-item}
+**Brown University**
 
-*Brown University*, 2021 --- present
+2021 --- present
 
-**Bachelor's of Science** Mathematics-Economics and Political Science
+*Doctor of Philosophy*, Economics 
+:::
 
-*Furman University*, 2014 --- 2018
+
+:::{.cv-item}
+**Furman University**
+
+2014 --- 2018
+
+*Bachelor's of Science*, Mathematics-Economics and Political Science 
+:::
+
 
 
 ## Work Experience
 
-### Research Assistant
+:::{.cv-item}
+**Federal Reserve Board of Governors**
 
-*Federal Reserve Board of Governors*, 2018 --- 2021
+2018 --- 2021
 
-Worked in the International Finance Division studying International Financial Stability.
-Daily work contained a mix of policy and research projects.
-Built experience coding in R and Python.
+*Research Assistant*
+
+Worked in the International Finance Division studying International Financial Stability. Daily work contained a mix of policy and research projects. Built experience coding in R and Python.
+:::
 
 
-## Presentations and Workshops
+## Teaching
 
-#### Upcoming
-- Southern Economic Association (November 23-25, 2024)
+##### As Teaching Fellow (developed course and delivered all lectures)
+
+:::{.cv-item}
+Applied Economics Analysis (First Year Graduate Course)
+
+2024, 2025
+
+
+:::
+
+##### As Teaching Assistant
+
+:::{.cv-item}
+Intermediate Macroeconomics
+
+2023
+:::
+
+:::{.cv-item}
+Macroeconomics (First Year Graduate Course)
+
+2022, 2023
+:::
+
+
+## Presentations
+
+**Attended:** 
+Southern Economic Association (November 23-25, 2024)
+
+<!--
+**Upcoming:** 
+-->
