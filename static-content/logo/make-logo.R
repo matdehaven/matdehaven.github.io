@@ -21,9 +21,9 @@ p <-
   )) +
   geom_area(aes(y = y1, fill = "y1")) +
   geom_ribbon(aes(xmin = x, xmax = x, ymin = y1, ymax = +Inf), fill = y3_color) +
-  geom_line(aes(y = y2), color = y2_color, linewidth = 0.75) +
-  scale_x_continuous(expand = c(0, 0), limits = c(0, 1.05 * 2 * pi)) +
-  scale_y_continuous(expand = c(0, 0.5)) +
+  geom_line(aes(y = y2), color = y2_color, linewidth = 1) +
+  scale_x_continuous(expand = c(0, 0), limits = c(0, 0.975 * 2 * pi)) +
+  scale_y_continuous(expand = c(0, 0)) +
   scale_fill_manual(values = c(
     y1 = y1_color,
     y2 = y2_color
@@ -31,7 +31,9 @@ p <-
   theme_void() +
   theme(
     legend.position = "none",
-    aspect.ratio = 1
+    aspect.ratio = 1,
+    plot.margin = margin(0,0,0,0),
+    axis.ticks.length = unit(0, "pt")
   )
 
 p
@@ -53,7 +55,6 @@ ggsave(
   p,
   width = 1,
   height = 1,
-  scale = 1,
   dpi = 180,
   bg = "transparent"
 )
