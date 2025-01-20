@@ -1,11 +1,14 @@
 ---
 title: "Applied Economics Analysis"
 author: Matthew DeHaven
-categories: ["graduate", "Course Designer", "Instructor"]
+categories: ["graduate"]
+Role: ["Course Designer, Instructor"]
 Taught: ["2024", "2025"]
 ---
 
 A first year graduate course aimed to prepare students with practical programming skills for pursuing academic research.
+
+I designed and instructed this course.
 
 #### Course Materials:
 - Brown University, [Spring 2025](https://matthewdehaven.com/course-applied-economics-analysis-2025-Spring/)
