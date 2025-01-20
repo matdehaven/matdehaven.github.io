@@ -5,7 +5,7 @@ listing:
   sort-ui: false
   filter-ui: false
   categories: true
-  fields: [title]
+  fields: [title, "categories", "Taught"]
   contents:
     - "*.qmd"
 ---

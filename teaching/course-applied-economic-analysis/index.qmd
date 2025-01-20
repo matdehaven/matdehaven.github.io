@@ -1,0 +1,20 @@
+---
+title: "Applied Economics Analysis"
+author: Matthew DeHaven
+categories: ["graduate", "Course Designer", "Instructor"]
+Taught: ["2024", "2025"]
+---
+
+A first year graduate course aimed to prepare students with practical programming skills for pursuing academic research.
+
+#### Course Materials:
+- Brown University, [Spring 2025](https://matthewdehaven.com/course-applied-economics-analysis-2025-Spring/)
+- Brown University, [Spring 2024](https://matthewdehaven.com/course-applied-economics-analysis-2024-Spring/)
+
+# Course Description
+
+This course prepares students to conduct independent research by providing the necessary skills in programming and project organization. Topics covered will include version control, integrated development environments (IDEs), programming basics, package environments, functional programming, data visualization, data science, and more. Material will be presented using the programming language R, with some time spent on introductions to Python, Julia, and some basics of HTML. By the end of the course students should feel comfortable in the major programming languages used in economic research and in producing their own work as a replicable, sustainable project.
+
+# Teaching Reviews
+
+- Brown University, [Spring 2024](Spring2024ECON2020S01ECON2020Spring24S01AppliedEconomicsAnalysis-S01_MatthewDeHaven.pdf){target="_blank"}
