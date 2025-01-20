@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 listing:
+  id: teaching-listing
   type: table
   sort-ui: false
   filter-ui: false
@@ -11,3 +12,22 @@ listing:
 ---
 
 All of my teaching resources.
+
+#### Courses
+
+::: {#teaching-listing}
+:::
+
+
+#### Teaching Certificates
+
+- Reflective Teaching Seminar Certificate, Sheridan Center for Teaching and Learning, Fall 2023
+- Course Design Seminar Certificate, Sheridan Center for Teaching and Learning, Spring 2024
+
+## Other Teaching Experience
+
+#### Teaching Assistant
+
+- Intermediate Macroeconomics, undergraduate, Brown University, Fall 2023
+- Macroeconomics, graduate, Brown University, Spring 2023
+- Macroeconomics, graduate, Brown University, Fall 2022

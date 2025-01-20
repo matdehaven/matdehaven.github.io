@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-teaching-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-teaching-listing'] = new List('listing-teaching-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -180,7 +180,13 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#other-teaching-experience" id="toc-other-teaching-experience" class="nav-link active" data-scroll-target="#other-teaching-experience">Other Teaching Experience</a></li>
+  </ul>
+</nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3JhZHVhdGU=">graduate <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -205,11 +211,9 @@ window.Quarto = {
 
 
 <p>All of my teaching resources.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<section id="courses" class="level4">
+<h4 class="anchored" data-anchor-id="courses">Courses</h4>
+<div id="listing-teaching-listing" class="quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
 <tr>
@@ -241,7 +245,31 @@ Taught
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="teaching-certificates" class="level4">
+<h4 class="anchored" data-anchor-id="teaching-certificates">Teaching Certificates</h4>
+<ul>
+<li>Reflective Teaching Seminar Certificate, Sheridan Center for Teaching and Learning, Fall 2023</li>
+<li>Course Design Seminar Certificate, Sheridan Center for Teaching and Learning, Spring 2024</li>
+</ul>
+</section>
+<section id="other-teaching-experience" class="level2">
+<h2 class="anchored" data-anchor-id="other-teaching-experience">Other Teaching Experience</h2>
+<section id="teaching-assistant" class="level4">
+<h4 class="anchored" data-anchor-id="teaching-assistant">Teaching Assistant</h4>
+<ul>
+<li>Intermediate Macroeconomics, undergraduate, Brown University, Fall 2023</li>
+<li>Macroeconomics, graduate, Brown University, Spring 2023</li>
+<li>Macroeconomics, graduate, Brown University, Fall 2022</li>
+</ul>
+
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
