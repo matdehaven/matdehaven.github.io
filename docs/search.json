@@ -173,5 +173,12 @@
     "title": "Teaching",
     "section": "Other Teaching Experience",
     "text": "Other Teaching Experience\n\nTeaching Assistant\n\nIntermediate Macroeconomics, undergraduate, Brown University, Fall 2023\nMacroeconomics, graduate, Brown University, Spring 2023\nMacroeconomics, graduate, Brown University, Fall 2022"
+  },
+  {
+    "objectID": "teaching/course-applied-economics-analysis/index.html",
+    "href": "teaching/course-applied-economics-analysis/index.html",
+    "title": "Applied Economics Analysis",
+    "section": "",
+    "text": "A first year graduate course aimed to prepare students with practical programming skills for pursuing academic research.\nI designed and instructed this course.\n\nCourse Materials:\n\nBrown University, Spring 2025\nBrown University, Spring 2024\n\n\n\nCourse Description\nThis course prepares students to conduct independent research by providing the necessary skills in programming and project organization. Topics covered will include version control, integrated development environments (IDEs), programming basics, package environments, functional programming, data visualization, data science, and more. Material will be presented using the programming language R, with some time spent on introductions to Python, Julia, and some basics of HTML. By the end of the course students should feel comfortable in the major programming languages used in economic research and in producing their own work as a replicable, sustainable project.\n\n\nTeaching Reviews\n\nBrown University, Spring 2024"
   }
 ]
