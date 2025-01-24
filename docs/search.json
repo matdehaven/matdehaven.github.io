@@ -35,11 +35,11 @@
     "text": "Presentations\nAttended: Southern Economic Association (November 23-25, 2024)"
   },
   {
-    "objectID": "teaching/applied-economic-analysis/index.html",
-    "href": "teaching/applied-economic-analysis/index.html",
+    "objectID": "teaching/course-applied-economics-analysis/index.html",
+    "href": "teaching/course-applied-economics-analysis/index.html",
     "title": "Applied Economics Analysis",
     "section": "",
-    "text": "A first year graduate course aimed to prepare students with practical skills for pursuing academic research.\n\nMy Role\n\nCourse Designer and Instructor\n\n\nCourse Website and Syllabus\n\nCourse Description\nThis course prepares students to conduct independent research by providing the necessary skills in programming and project organization. Topics covered will include version control, the Visual Studio Code IDE, programming basics, environments, functional programming, unit testing, data vizualization, data science, and more. Material will be presented using the programming language R, with some time spent on introductions to Python, Julia, and some basics of HTML. By the end of the course students should feel comfortable in the major programming languages used in economic research and in producing their own work as a replicable, sustainable project.\n\n\nTeaching Reviews\nSpring 2024"
+    "text": "A first year graduate course aimed to prepare students with practical programming skills for pursuing academic research.\nI designed and instructed this course.\n\nCourse Materials:\n\nBrown University, Spring 2025\nBrown University, Spring 2024\n\n\n\nCourse Description\nThis course prepares students to conduct independent research by providing the necessary skills in programming and project organization. Topics covered will include version control, integrated development environments (IDEs), programming basics, package environments, functional programming, data visualization, data science, and more. Material will be presented using the programming language R, with some time spent on introductions to Python, Julia, and some basics of HTML. By the end of the course students should feel comfortable in the major programming languages used in economic research and in producing their own work as a replicable, sustainable project.\n\n\nTeaching Reviews\n\nBrown University, Spring 2024"
   },
   {
     "objectID": "index.html",
@@ -147,38 +147,10 @@
     "text": "All of my teaching resources."
   },
   {
-    "objectID": "teaching/course-applied-economic-analysis/index.html",
-    "href": "teaching/course-applied-economic-analysis/index.html",
-    "title": "Applied Economics Analysis",
-    "section": "",
-    "text": "A first year graduate course aimed to prepare students with practical programming skills for pursuing academic research.\nI designed and instructed this course.\n\nCourse Materials:\n\nBrown University, Spring 2025\nBrown University, Spring 2024\n\n\n\nCourse Description\nThis course prepares students to conduct independent research by providing the necessary skills in programming and project organization. Topics covered will include version control, integrated development environments (IDEs), programming basics, package environments, functional programming, data visualization, data science, and more. Material will be presented using the programming language R, with some time spent on introductions to Python, Julia, and some basics of HTML. By the end of the course students should feel comfortable in the major programming languages used in economic research and in producing their own work as a replicable, sustainable project.\n\n\nTeaching Reviews\n\nBrown University, Spring 2024"
-  },
-  {
-    "objectID": "teaching/index.html#other-teaching",
-    "href": "teaching/index.html#other-teaching",
-    "title": "Teaching",
-    "section": "Other Teaching",
-    "text": "Other Teaching\n\nTeaching Assistant\n\nIntermediate Macroeconomics, undergraduate, Brown University, Fall 2023\nMacroeconomics, graduate, Brown University, Spring 2023\nMacroeconomics, graduate, Brown University, Fall 2022"
-  },
-  {
-    "objectID": "teaching/index.html#teaching-certificates",
-    "href": "teaching/index.html#teaching-certificates",
-    "title": "Teaching",
-    "section": "Teaching Certificates",
-    "text": "Teaching Certificates\n\nSheridan Center for Teaching and Learning, Reflective Teaching Seminar Certificate, Fall 2023\nSheridan Center for Teaching and Learning, Course Design Seminar Certificate, Spring 2024"
-  },
-  {
     "objectID": "teaching/index.html#other-teaching-experience",
     "href": "teaching/index.html#other-teaching-experience",
     "title": "Teaching",
     "section": "Other Teaching Experience",
     "text": "Other Teaching Experience\n\nTeaching Assistant\n\nIntermediate Macroeconomics, undergraduate, Brown University, Fall 2023\nMacroeconomics, graduate, Brown University, Spring 2023\nMacroeconomics, graduate, Brown University, Fall 2022"
-  },
-  {
-    "objectID": "teaching/course-applied-economics-analysis/index.html",
-    "href": "teaching/course-applied-economics-analysis/index.html",
-    "title": "Applied Economics Analysis",
-    "section": "",
-    "text": "A first year graduate course aimed to prepare students with practical programming skills for pursuing academic research.\nI designed and instructed this course.\n\nCourse Materials:\n\nBrown University, Spring 2025\nBrown University, Spring 2024\n\n\n\nCourse Description\nThis course prepares students to conduct independent research by providing the necessary skills in programming and project organization. Topics covered will include version control, integrated development environments (IDEs), programming basics, package environments, functional programming, data visualization, data science, and more. Material will be presented using the programming language R, with some time spent on introductions to Python, Julia, and some basics of HTML. By the end of the course students should feel comfortable in the major programming languages used in economic research and in producing their own work as a replicable, sustainable project.\n\n\nTeaching Reviews\n\nBrown University, Spring 2024"
   }
 ]
