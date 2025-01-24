@@ -4,7 +4,7 @@ author: Matthew DeHaven
 categories: ["graduate"]
 Role: ["Course Designer, Instructor"]
 Taught: ["2024", "2025"]
-aliases: [course-applied-economics-analysis.html]
+aliases: ["https://matthewdehaven.com/course-applied-economics-analysis/"]
 ---
 
 A first year graduate course aimed to prepare students with practical programming skills for pursuing academic research.
