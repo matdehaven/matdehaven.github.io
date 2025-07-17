@@ -21,8 +21,8 @@ All of my teaching resources.
 
 #### Teaching Certificates
 
-- [Reflective Teaching Seminar Certificate](https://sheridan.brown.edu/programs/certificates/sheridan-teaching-seminar), Sheridan Center for Teaching and Learning, Fall 2023
-- [Course Design Seminar Certificate](https://sheridan.brown.edu/programs/certificates/course-design-seminar), Sheridan Center for Teaching and Learning, Spring 2024
+- [Reflective Teaching Seminar Certificate](https://sheridan.brown.edu/programs/certificates/sheridan-teaching-seminar){target="_blank"}, Sheridan Center for Teaching and Learning, Fall 2023
+- [Course Design Seminar Certificate](https://sheridan.brown.edu/programs/certificates/course-design-seminar){target="_blank"}, Sheridan Center for Teaching and Learning, Spring 2024
 
 ## Other Teaching Experience
 
