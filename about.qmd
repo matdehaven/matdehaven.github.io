@@ -8,10 +8,6 @@ about:
       text: Github
       href: https://github.com/matdehaven
       target: _blank
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/matthew-dehaven-067856b6/
-      target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.com/citations?user=q_4egM0AAAAJ&hl=en
       target: _blank
