@@ -45,3 +45,12 @@ $navbar-brand-font-size: 1rem !default;
 .navbar {
   border: 0px !important;
 }
+
+// Make listing title change color on hover
+.listing-title a {
+      color: $black;
+    }
+
+.listing-title a:hover {
+  color: $primary;
+}
