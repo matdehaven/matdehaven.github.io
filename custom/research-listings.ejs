@@ -34,7 +34,9 @@
               <% } %>
             <% } %>
             <% if (item["external-url"] && item["external-name"]) { %>
-            <a href=<%= item["external-url"]%> title = "External Link" target = "_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-box-arrow-up-right"></i> <%= item["external-name"]%></button></a>
+              <% for (var i = 0; i < item["external-name"].length; i++) { %>
+                <a href=<%= item["external-url"][i]%> title = "External Link" target = "_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-box-arrow-up-right"></i> <%= item["external-name"][i]%></button></a>
+              <% } %>
             <% } %>
             <% if (item["pdf-url"]) { %>
             <a href=<%= item["pdf-url"]%> title = "PDF" target = "_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-file-pdf"></i> PDF</button></a>
