@@ -2,8 +2,8 @@ library(ggplot2)
 library(svglite)
 
 ## Colors
-y1_color <- "#F2AD00"
-y2_color <- "#F98400"
+y1_color <- "#FEC134"
+y2_color <- "#FA6F00"
 y3_color <- "#5BBCD6"
 
 
