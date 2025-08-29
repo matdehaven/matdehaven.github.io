@@ -1,0 +1,29 @@
+---
+format: 
+  html:
+    template-partials: ../../../custom/title-block.html
+title: "The Market Price of Risk and Macro-Financial Dynamics"
+author: 
+  - Tobias Adrian
+  - Matthew DeHaven
+  - Fernando Duarte
+  - Tara Iyer
+date: 09/01/2023
+categories: ["business cycles", "financial"]
+image: just_vfci.svg 
+pdf-url: https://www.imf.org/-/media/Files/Publications/WP/2023/English/wpiea2023199-print-pdf.ashx
+external-url: https://www.imf.org/en/Publications/WP/Issues/2023/09/22/The-Market-Price-of-Risk-and-Macro-Financial-Dynamics-539381
+external-name: IMF WP
+citation:
+  type: article-journal
+  container-title: IMF Working Papers
+  volume: 2023
+  issue: 199
+#  page-first: 1
+  issn: 1018-5941
+  doi: 10.5089/9798400255397.001
+---
+
+# Abstract
+
+We construct the Volatility Financial Conditions Index (VFCI) as the component of the market price of risk spanned by financial assets. We write a no-arbitrage model with general preferences to show how to estimate the VFCI from the conditional volatility of GDP, even when markets are incomplete. Empirically, the VFCI has greater predictive power than other FCIs for equity, Treasury, and corporate bond risk premia. Across multiple identification strategies, a VFCI shock that tightens financial conditions causes a persistent decline in output and an immediate monetary policy easing. Conversely, contractionary monetary policy shocks cause financial conditions to tighten.

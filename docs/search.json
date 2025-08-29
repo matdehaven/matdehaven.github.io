@@ -67,14 +67,14 @@
     "href": "research/index.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            The Market Price of Risk and Macro-Financial Dynamics\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte, Tara Iyer.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
+    "text": "Work in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "research/index.html#working-papers",
     "href": "research/index.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\n\n  No Content\n\n\nNo matching items"
+    "text": "Working Papers\n\n\n\n\n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            The Market Price of Risk and Macro-Financial Dynamics\n          \n          \n\n          \n            \n            \n            \n               Sep 1, 2023.  \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte, Tara Iyer.  \n            \n            \n              \n                  IMF Working Papers.  \n              \n            \n            \n              IMF WP\n            \n            \n              PDF\n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "research/index.html#published-papers",
@@ -152,5 +152,12 @@
     "title": "Teaching",
     "section": "Other Teaching Experience",
     "text": "Other Teaching Experience\n\nTeaching Assistant\n\nIntermediate Macroeconomics, undergraduate, Brown University, Fall 2023\nMacroeconomics, graduate, Brown University, Spring 2023\nMacroeconomics, graduate, Brown University, Fall 2022"
+  },
+  {
+    "objectID": "research/working-papers/2024-11-14-Market-Price-of-Risk/index.html",
+    "href": "research/working-papers/2024-11-14-Market-Price-of-Risk/index.html",
+    "title": "The Market Price of Risk and Macro-Financial Dynamics",
+    "section": "",
+    "text": "Abstract\nWe construct the Volatility Financial Conditions Index (VFCI) as the component of the market price of risk spanned by financial assets. We write a no-arbitrage model with general preferences to show how to estimate the VFCI from the conditional volatility of GDP, even when markets are incomplete. Empirically, the VFCI has greater predictive power than other FCIs for equity, Treasury, and corporate bond risk premia. Across multiple identification strategies, a VFCI shock that tightens financial conditions causes a persistent decline in output and an immediate monetary policy easing. Conversely, contractionary monetary policy shocks cause financial conditions to tighten.\n\n\n\n\nCitationBibTeX citation:@article{adrian2023,\n  author = {Adrian, Tobias and DeHaven, Matthew and Duarte, Fernando and\n    Iyer, Tara},\n  title = {The {Market} {Price} of {Risk} and {Macro-Financial}\n    {Dynamics}},\n  journal = {IMF Working Papers},\n  volume = {2023},\n  number = {199},\n  date = {2023-09-01},\n  doi = {10.5089/9798400255397.001},\n  issn = {1018-5941},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAdrian, Tobias, Matthew DeHaven, Fernando Duarte, and Tara Iyer. 2023.\n“The Market Price of Risk and Macro-Financial Dynamics.”\nIMF Working Papers 2023 (199). https://doi.org/10.5089/9798400255397.001."
   }
 ]
