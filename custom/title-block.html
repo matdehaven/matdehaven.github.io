@@ -33,8 +33,10 @@
   $if(pdf-url)$
   <a href=$pdf-url$ title = "PDF" target = "_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.65em;"><i class="bi-file-pdf"></i> PDF</button></a>
   $endif$
-  $if(external-url)$
-  <a href=$external-url$ title = "External Link" target = "_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.65em;"><i class="bi-box-arrow-up-right"></i> $if(external-name)$$external-name$$endif$</button></a>
+  $if(external-links)$
+  $for(external-links)$
+  <a href=$external-links.url$ title = "External Link" target = "_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.65em;"><i class="bi-box-arrow-up-right"></i> $if(external-links.name)$$external-links.name$$endif$</button></a>
+  $endfor$
   $endif$ 
 </div>
 

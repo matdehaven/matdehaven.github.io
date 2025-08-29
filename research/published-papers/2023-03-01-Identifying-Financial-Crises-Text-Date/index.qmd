@@ -13,8 +13,9 @@ date: "March 1, 2023"
 categories: ["business cycles", "international", "machine learning", "text analysis"]
 image: fig11.png
 pdf-url: https://www.mdpi.com/1911-8074/16/3/161/pdf?version=1677727929
-external-url: ["https://www.mdpi.com/1911-8074/16/3/161"]
-external-name: ["JRFM"]
+external-links:
+  - name: JRFM
+    url: https://www.mdpi.com/1911-8074/16/3/161
 citation:
   type: article-journal
   container-title: Journal of Risk and Financial Management

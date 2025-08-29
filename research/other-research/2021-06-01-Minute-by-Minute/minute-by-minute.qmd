@@ -13,8 +13,9 @@ date: "July 03, 2024"
 categories: ["financial", "international", "political economy"]
 image: figs/fig1.png
 pdf-url: https://arxiv.org/pdf/2407.03527
-external-url: ["https://arxiv.org/abs/2407.03527"]
-external-name: ["arXiv"]
+external-links: 
+  - name: arXiv
+    url: https://arxiv.org/abs/2407.03527
 citation:
   type: article
   number: "arXiv:2407.03527"

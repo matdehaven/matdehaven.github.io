@@ -12,8 +12,11 @@ date: 09/01/2023
 categories: ["business cycles", "financial"]
 image: just_vfci.svg 
 pdf-url: https://www.imf.org/-/media/Files/Publications/WP/2023/English/wpiea2023199-print-pdf.ashx
-external-url: ["https://www.imf.org/en/Publications/WP/Issues/2023/09/22/The-Market-Price-of-Risk-and-Macro-Financial-Dynamics-539381"]
-external-name: ["IMF WP"]
+external-links:
+  - name: IMF WP
+    url: https://www.imf.org/en/Publications/WP/Issues/2023/09/22/The-Market-Price-of-Risk-and-Macro-Financial-Dynamics-539381
+  - name: CEPR
+    url: https://cepr.org/publications/dp17777
 citation:
   type: article-journal
   container-title: IMF Working Papers
