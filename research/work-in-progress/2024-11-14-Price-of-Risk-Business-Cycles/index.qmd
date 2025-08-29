@@ -25,6 +25,6 @@ categories: ["business cycles", "financial"]
 
 # Description
 
-A companion project to [The Market Price of Risk and Macro-Financial Dynamics](../2024-11-14-Market-Price-of-Risk/index.html).
+A companion project to [The Market Price of Risk and Macro-Financial Dynamics](../../working-papers/2024-11-14-Market-Price-of-Risk/index.html).
 
 This project explores the direct relationship between the price of risk and business cycles by diving into the estimation and identification of VARs, leveraging the heteroskedasticity implied by the time varying price of risk.
