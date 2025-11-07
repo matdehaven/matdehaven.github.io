@@ -32,7 +32,7 @@
     "href": "CV/cv.html#presentations",
     "title": "Matthew DeHaven",
     "section": "Presentations",
-    "text": "Presentations\nAttended: Southern Economic Association (November 23-25, 2024)"
+    "text": "Presentations\nSouthern Economic Association (November 23-25, 2024), Furman University Visiting Scholar (October 30-31, 2025)"
   },
   {
     "objectID": "teaching/course-applied-economics-analysis/index.html",
@@ -56,39 +56,11 @@
     "text": "Summary\nThe downturn in global economic activity caused by the COVID-19 pandemic was unique both for its causes and for its severity. Even though, on a global scale, the recent contraction is unprecedented in modern times, it is useful to look at the consequences of large recessions which affected individual countries in the past. In this note, we draw insights about the ongoing global recovery by looking at the evolution of several economic indicators in the aftermath of past recessions.\nWe find that, following severe contractions, output typically remains well below its pre-recession trend in the medium term. This behavior is more marked for severe recessions that are accompanied by financial crises, while severe but short contractions result in a faster recovery. The post-COVID-19 recovery appears to be much more rapid than in standard severe recessions, putting it roughly in line with severe and short recessions of the past.\nWe argue that outsized policy interventions in response to COVID-19 provided unprecedented support to households and firms, preventing a more prolonged downturn. Furthermore, productivity is likely to be more resilient compared to past slumps, which should help to sustain the pace of the recovery in the coming years.\n\n\n\n\n\n\nFigure 1: GDP Recovery after “Severe Recessions”\n\n\n\n\n\n\n\nCitationBibTeX citation:@misc{caldara2021,\n  author = {Caldara, Dario and DeHaven, Matthew and Ferrante, Francsco\n    and Iacoviello, Matteo},\n  publisher = {Board of Governors of the Federal Reserve System},\n  title = {The {Global} {Recovery:} {Lessons} from the {Past}},\n  date = {2021-06-22},\n  address = {Washington},\n  url = {https://www.federalreserve.gov/econres/notes/feds-notes/the-global-recovery-lessons-from-the-past-20210622.html},\n  doi = {10.17016/2380-7172.2931},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nCaldara, Dario, Matthew DeHaven, Francsco Ferrante, and Matteo\nIacoviello. 2021. “The Global Recovery: Lessons from the\nPast.” FEDS Notes. Washington: Board of Governors of the\nFederal Reserve System. https://doi.org/10.17016/2380-7172.2931."
   },
   {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
+    "objectID": "research/working-papers/2024-11-14-Market-Price-of-Risk/index.html",
+    "href": "research/working-papers/2024-11-14-Market-Price-of-Risk/index.html",
+    "title": "The Market Price of Risk and Macro-Financial Dynamics",
     "section": "",
-    "text": "All of my published and unpublished research projects. Click on each project to learn more."
-  },
-  {
-    "objectID": "research/index.html#work-in-progress",
-    "href": "research/index.html#work-in-progress",
-    "title": "Research",
-    "section": "Work in Progress",
-    "text": "Work in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/index.html#working-papers",
-    "href": "research/index.html#working-papers",
-    "title": "Research",
-    "section": "Working Papers",
-    "text": "Working Papers\n\n\n\n\n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            The Market Price of Risk and Macro-Financial Dynamics\n          \n          \n\n          \n            \n            \n            \n               Sep 1, 2023.  \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte, Tara Iyer.  \n            \n            \n              \n                  IMF Working Papers.  \n              \n            \n            \n              PDF\n            \n            \n              \n                  IMF WP\n              \n                  CEPR\n              \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/index.html#published-papers",
-    "href": "research/index.html#published-papers",
-    "title": "Research",
-    "section": "Published Papers",
-    "text": "Published Papers\n\n\n\n\n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            Identifying Financial Crises Using Machine Learning on Textual Data\n          \n          \n\n          \n            \n            \n            \n               Mar 1, 2023.  \n            \n            \n               Mary Chen, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, Martin J. Sicilian.  \n            \n            \n              \n                  Journal of Risk and Financial Management.  \n              \n            \n            \n              PDF\n            \n            \n              \n                  JRFM\n              \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/index.html#other-research",
-    "href": "research/index.html#other-research",
-    "title": "Research",
-    "section": "Other Research",
-    "text": "Other Research\n\n\n\n\n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            Minute-by-Minute:  Financial Markets' Reaction to the 2020 U.S. Election\n          \n          \n\n          \n            \n            \n            \n               Jul 3, 2024.  \n            \n            \n               Matthew DeHaven, Hannah Firestone, Chris Webster.  \n            \n            \n              \n            \n            \n              PDF\n            \n            \n              \n                  arXiv\n              \n            \n          \n          \n\n      \n\n  \n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            The Global Recovery: Lessons from the Past\n          \n          \n\n          \n            \n            \n            \n               Jun 22, 2021.  \n            \n            \n               Dario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello.  \n            \n            \n              \n                  FEDS Notes.  \n              \n            \n            \n            \n              \n                  FEDS Note\n              \n            \n          \n          \n\n      \n\n  \n  \n\n\n\nNo matching items"
+    "text": "Abstract\nWe construct the Volatility Financial Conditions Index (VFCI) as the component of the market price of risk spanned by financial assets. We write a no-arbitrage model with general preferences to show how to estimate the VFCI from the conditional volatility of GDP, even when markets are incomplete. Empirically, the VFCI has greater predictive power than other FCIs for equity, Treasury, and corporate bond risk premia. Across multiple identification strategies, a VFCI shock that tightens financial conditions causes a persistent decline in output and an immediate monetary policy easing. Conversely, contractionary monetary policy shocks cause financial conditions to tighten.\n\n\n\n\nCitationBibTeX citation:@article{adrian2023,\n  author = {Adrian, Tobias and DeHaven, Matthew and Duarte, Fernando and\n    Iyer, Tara},\n  title = {The {Market} {Price} of {Risk} and {Macro-Financial}\n    {Dynamics}},\n  journal = {IMF Working Papers},\n  volume = {2023},\n  number = {199},\n  date = {2023-09-01},\n  doi = {10.5089/9798400255397.001},\n  issn = {1018-5941},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAdrian, Tobias, Matthew DeHaven, Fernando Duarte, and Tara Iyer. 2023.\n“The Market Price of Risk and Macro-Financial Dynamics.”\nIMF Working Papers 2023 (199). https://doi.org/10.5089/9798400255397.001."
   },
   {
     "objectID": "research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
@@ -105,11 +77,39 @@
     "text": "Abstract\nWe use machine learning techniques on textual data to identify financial crises. One of the challenges in financial crisis management is being able to determine whether a country is in a crisis or not, or what type of crisis a country is in, especially in real time. The onset of a crisis and its severity also has implications for real economic activity and, hence can be a valuable input into macroprudential, monetary, and fiscal policy. The academic literature and the policy realm rely mostly on expert judgment to determine crises. Consequently, the identification of crises and the buildup-phases of vulnerabilities are usually determined with hindsight. Although we can identify and forecast a good portion of various degrees of crises worldwide with traditional econometric techniques using readily available markets data, we find that textual data helps in reducing false-positives and false-negatives in out-of-sample testing of such models, especially when the crises are considered more severe.\n\n\n\n\n\n\nFigure 1: US OECD Economic Outlook with LIME Highlighting (Figure 11 in the text)\n\n\n\n\n\n\n\nCitationBibTeX citation:@article{chen2023,\n  author = {Chen, Mary and DeHaven, Matthew and Kitschelt, Isabel and\n    Jung Lee, Seung and J. Sicilian, Martin},\n  title = {Identifying {Financial} {Crises} {Using} {Machine} {Learning}\n    on {Textual} {Data}},\n  journal = {Journal of Risk and Financial Management},\n  volume = {16},\n  number = {3},\n  pages = {161},\n  date = {2023-03-01},\n  doi = {10.3390/jrfm16030161},\n  issn = {1911-8074},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nChen, Mary, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, and\nMartin J. Sicilian. 2023. “Identifying Financial Crises Using\nMachine Learning on Textual Data.” Journal of Risk and\nFinancial Management 16 (3): 161. https://doi.org/10.3390/jrfm16030161."
   },
   {
-    "objectID": "research/work-in-progress/2024-11-14-Market-Price-of-Risk/index.html",
-    "href": "research/work-in-progress/2024-11-14-Market-Price-of-Risk/index.html",
-    "title": "The Market Price of Risk and Macro-Financial Dynamics",
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
     "section": "",
-    "text": "Abstract\nWe propose the conditional volatility of GDP spanned by financial factors as a “Volatility Financial Conditions Index” (VFCI) and show its relation to the market price of risk. The VFCI exhibits superior explanatory power for stock and bond risk premia compared to other FCIs. We use a variety of identification strategies and instruments to demonstrate robust causal relationships between the VFCI and macroeconomic aggregates: a tightening of financial conditions as measured by the VFCI leads to a persistent contraction of output and triggers an immediate easing of monetary policy. Conversely, contractionary monetary policy shocks cause tighter financial conditions."
+    "text": "All of my published and unpublished research projects. Click on each project to learn more."
+  },
+  {
+    "objectID": "research/index.html#work-in-progress",
+    "href": "research/index.html#work-in-progress",
+    "title": "Research",
+    "section": "Work in Progress",
+    "text": "Work in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#working-papers",
+    "href": "research/index.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\n\n\n\n\n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            The Market Price of Risk and Macro-Financial Dynamics\n          \n          \n\n          \n            \n            \n            \n               Sep 1, 2023.  \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte, Tara Iyer.  \n            \n            \n              \n                  IMF Working Papers.  \n              \n            \n            \n              PDF\n            \n            \n              \n                  IMF WP\n              \n                  CEPR\n              \n            \n          \n          \n\n      \n\n  \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#published-papers",
+    "href": "research/index.html#published-papers",
+    "title": "Research",
+    "section": "Published Papers",
+    "text": "Published Papers\n\n\n\n\n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            Identifying Financial Crises Using Machine Learning on Textual Data\n          \n          \n\n          \n            \n            \n            \n               Mar 1, 2023.  \n            \n            \n               Mary Chen, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, Martin J. Sicilian.  \n            \n            \n              \n                  Journal of Risk and Financial Management.  \n              \n            \n            \n              PDF\n            \n            \n              \n                  JRFM\n              \n            \n          \n          \n\n      \n\n  \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#other-research",
+    "href": "research/index.html#other-research",
+    "title": "Research",
+    "section": "Other Research",
+    "text": "Other Research\n\n\n\n\n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            Minute-by-Minute:  Financial Markets' Reaction to the 2020 U.S. Election\n          \n          \n\n          \n            \n            \n            \n               Jul 3, 2024.  \n            \n            \n               Matthew DeHaven, Hannah Firestone, Chris Webster.  \n            \n            \n              \n            \n            \n              PDF\n            \n            \n              \n                  arXiv\n              \n            \n          \n          \n\n      \n\n  \n  \n\n  \n\n      \n      \n        \n              \n        \n      \n      \n      \n          \n            The Global Recovery: Lessons from the Past\n          \n          \n\n          \n            \n            \n            \n               Jun 22, 2021.  \n            \n            \n               Dario Caldara, Matthew DeHaven, Francsco Ferrante, Matteo Iacoviello.  \n            \n            \n              \n                  FEDS Notes.  \n              \n            \n            \n            \n              \n                  FEDS Note\n              \n            \n          \n          \n\n      \n\n  \n  \n\n\nNo matching items"
   },
   {
     "objectID": "research/working-papers/placeholder/index.html",
@@ -152,12 +152,5 @@
     "title": "Teaching",
     "section": "Other Teaching Experience",
     "text": "Other Teaching Experience\n\nTeaching Assistant\n\nIntermediate Macroeconomics, undergraduate, Brown University, Fall 2023\nMacroeconomics, graduate, Brown University, Spring 2023\nMacroeconomics, graduate, Brown University, Fall 2022"
-  },
-  {
-    "objectID": "research/working-papers/2024-11-14-Market-Price-of-Risk/index.html",
-    "href": "research/working-papers/2024-11-14-Market-Price-of-Risk/index.html",
-    "title": "The Market Price of Risk and Macro-Financial Dynamics",
-    "section": "",
-    "text": "Abstract\nWe construct the Volatility Financial Conditions Index (VFCI) as the component of the market price of risk spanned by financial assets. We write a no-arbitrage model with general preferences to show how to estimate the VFCI from the conditional volatility of GDP, even when markets are incomplete. Empirically, the VFCI has greater predictive power than other FCIs for equity, Treasury, and corporate bond risk premia. Across multiple identification strategies, a VFCI shock that tightens financial conditions causes a persistent decline in output and an immediate monetary policy easing. Conversely, contractionary monetary policy shocks cause financial conditions to tighten.\n\n\n\n\nCitationBibTeX citation:@article{adrian2023,\n  author = {Adrian, Tobias and DeHaven, Matthew and Duarte, Fernando and\n    Iyer, Tara},\n  title = {The {Market} {Price} of {Risk} and {Macro-Financial}\n    {Dynamics}},\n  journal = {IMF Working Papers},\n  volume = {2023},\n  number = {199},\n  date = {2023-09-01},\n  doi = {10.5089/9798400255397.001},\n  issn = {1018-5941},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAdrian, Tobias, Matthew DeHaven, Fernando Duarte, and Tara Iyer. 2023.\n“The Market Price of Risk and Macro-Financial Dynamics.”\nIMF Working Papers 2023 (199). https://doi.org/10.5089/9798400255397.001."
   }
 ]
