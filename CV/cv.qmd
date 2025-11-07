@@ -59,27 +59,26 @@ Worked in the International Finance Division studying International Financial St
 
 
 ## Teaching
-
-##### As Teaching Fellow (developed course and delivered all lectures)
+#### As Teaching Fellow
 
 :::{.cv-item}
-Applied Economics Analysis (First Year Graduate Course)
+*Applied Economics Analysis* (First Year Graduate Course)
 
 2024, 2025
 
-
+Developed course and delivered all lectures. Class focused on programming, version control, and creating reproducible research.
 :::
 
-##### As Teaching Assistant
+#### As Teaching Assistant
 
 :::{.cv-item}
-Intermediate Macroeconomics
+*Intermediate Macroeconomics*
 
 2023
 :::
 
 :::{.cv-item}
-Macroeconomics (First Year Graduate Course)
+*Macroeconomics* (First Year Graduate Course)
 
 2022, 2023
 :::
