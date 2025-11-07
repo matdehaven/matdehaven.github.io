@@ -21,6 +21,8 @@ citation:
   number: "arXiv:2407.03527"
   archive: "arXiv:2407.03527"
   url: https://arxiv.org/abs/2407.03527
+execute:
+  freeze: auto
 ---
 
 Authors' note: This short article was written June 2021, but never shared or published till July 3, 2024.

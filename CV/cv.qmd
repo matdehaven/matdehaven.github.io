@@ -6,7 +6,8 @@ format:
       - ../custom-theme.scss
   cv-pdf: 
     keep-tex: true
-
+execute:
+  freeze: auto
 ---
 
 
