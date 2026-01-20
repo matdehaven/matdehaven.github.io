@@ -12,6 +12,7 @@ A first year graduate course aimed to prepare students with practical programmin
 I designed and instructed this course.
 
 #### Course Materials (Syllabus and Course Website):
+- Brown University, [Spring 2026](https://matthewdehaven.com/course-applied-economics-analysis-2026-Spring/)
 - Brown University, [Spring 2025](https://matthewdehaven.com/course-applied-economics-analysis-2025-Spring/)
 - Brown University, [Spring 2024](https://matthewdehaven.com/course-applied-economics-analysis-2024-Spring/)
 
