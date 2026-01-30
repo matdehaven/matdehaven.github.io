@@ -54,7 +54,9 @@ execute:
 
 *Research Assistant*
 
-Worked in the International Finance Division studying International Financial Stability. Daily work contained a mix of policy and research projects. Built experience coding in R and Python.
+Worked in the International Finance Division studying International Financial Stability and assisting the division director.
+Daily work contained a mix of policy and research projects.
+Built experience coding in R and Python.
 :::
 
 
@@ -64,7 +66,7 @@ Worked in the International Finance Division studying International Financial St
 :::{.cv-item}
 *Applied Economics Analysis* (First Year Graduate Course)
 
-2024, 2025
+2024, 2025, 2026
 
 Developed course and delivered all lectures. Class focused on programming, version control, and creating reproducible research.
 :::
@@ -89,3 +91,23 @@ Developed course and delivered all lectures. Class focused on programming, versi
 Southern Economic Association (November 23-25, 2024),
 Furman University Visiting Scholar (October 30-31, 2025)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+
+\subsection{Research}\vspace{-20pt}\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}
+
+\subsubsection*{Working Papers}
+
+Adrian, Tobias, Matthew DeHaven, Fernando Duarte, and Tara Iyer. 2023. ``\href{https://doi.org/10.5089/9798400255397.001}{The Market Price of Risk and Macro-Financial Dynamics}." IMF Working Papers 2023 (199).
+
+\subsubsection*{Work in Progress}
+
+Adrian, Tobias, Matthew DeHaven, and Fernando Duarte. ``The Price of Risk Drives the Business Cycle."
+
+DeHaven, Matthew. ``Domestic Uncertainty Shocks in a New Keynesian Open Economy."
+
+\subsubsection*{Published Papers}
+
+Chen, Mary, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, and Martin J. Sicilian. 2023. ``\href{https://doi.org/10.3390/jrfm16030161}{Identifying Financial Crises Using Machine Learning on Textual Data}." Journal of Risk and Financial Management 16 (3): 161. 
+
+:::
