@@ -1,5 +1,8 @@
 ---
-format: html
+format:
+  html:
+    toc: false
+    page-layout: article 
 execute:
   freeze: false
 resources:
