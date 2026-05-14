@@ -9,13 +9,17 @@ website:
   navbar:
     logo: static-content/logo/logo.svg
     left:
-      - href: about.qmd
+      - icon: person
+        href: about.qmd
         text: About
-      - href: research/index.qmd
+      - icon: file-earmark-bar-graph
+        href: research/index.qmd
         text: Research
-      - href: teaching/index.qmd
+      - icon: easel
+        href: teaching/index.qmd
         text: Teaching
-      - href: CV/cv.qmd
+      - icon: file-earmark-pdf
+        href: CV/index.qmd
         text: CV
     toggle-position: "right"
   page-footer:

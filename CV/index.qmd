@@ -58,7 +58,7 @@ invisible(pdf_convert(
   .cv-container {
     max-width: 850px;
     margin: 0 auto;
-    background: #f8f9fa;
+    background: #eee8d5; 
     padding: 20px;
     border-radius: 8px;
   }
@@ -71,8 +71,9 @@ invisible(pdf_convert(
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(7, 54, 66, 0.15); 
+    border: 1px solid #93a1a1; 
+    border-radius: 8px;
   }
 </style>
 ```

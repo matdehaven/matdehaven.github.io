@@ -3,42 +3,40 @@
 
 /*-- scss:defaults --*/
 
-$white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #ddd !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
-$black:    #000 !default;
+// 1. Solarized Color Palette
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
 
-// Colors from R wesanderson Darjeeling1 pallette
-// https://github.com/karthik/wesanderson
-$red:     #FF0000 !default;
-$green:   #00A08A !default;
-$yellow:  #FEC134 !default;
-$orange:  #FA6F00 !default;
-$blue:    #5BBCD6 !default;
-
-
+// 2. Map core Bootstrap theme variables to Solarized
+$body-bg:       $base3 !default;   // Warm cream background
+$body-color:    $base01 !default;  // Main body text
 $primary:       $blue !default;
-$secondary:     $orange !default;
+$secondary:     $base01 !default;
 $success:       $green !default;
-$info:          $blue !default;
+$info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$light:         $base2 !default;   // Slightly darker than body-bg for contrast
+$dark:          $base02 !default;
 
-$navbar-bg:   $gray-100 !default;
-$navbar-fg:   $black !default;
-
-// Set Website Title font size to small
-$navbar-brand-font-size: 1rem !default;
-// $navbar-brand-margin-end: 1rem !default;
+// 3. Your specific Navbar settings
+$navbar-bg:               $base2 !default;  // Sets navbar slightly apart from the body
+$navbar-fg:               $base02 !default; // Darker text for readability
+$navbar-brand-font-size:  1.25rem !default;
 
 /*-- scss:rules --*/ 
 
@@ -48,8 +46,9 @@ $navbar-brand-font-size: 1rem !default;
 
 // Make listing title change color on hover
 .listing-title a {
-      color: $black;
-    }
+  color: $base02; // Replaced $black with Solarized dark text
+  text-decoration: none;
+}
 
 .listing-title a:hover {
   color: $primary;
