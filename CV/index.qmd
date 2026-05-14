@@ -1,0 +1,78 @@
+---
+format: html
+execute:
+  freeze: false
+resources:
+  - "cv.pdf"
+  - "images/cv-page-*.png"
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+# 1. Load library and define paths
+library(pdftools)
+
+pdf_path <- "cv.pdf"
+img_dir <- "images"
+
+# Ensure output directory exists
+if (!dir.exists(img_dir)) {
+  dir.create(img_dir)
+}
+
+# 2. Get number of pages and set up filenames
+num_pages <- pdf_info(pdf_path)$pages
+img_filenames <- sprintf("cv-page-%d.png", 1:num_pages)
+img_filepaths <- file.path(img_dir, img_filenames)
+
+# 3. Convert PDF to PNGs 
+# (invisible() and verbose = FALSE keep the build logs clean)
+invisible(pdf_convert(
+  pdf = pdf_path, 
+  format = "png", 
+  dpi = 150, 
+  filenames = img_filepaths,
+  verbose = FALSE
+))
+
+
+```
+
+:::{.text-center}
+[ {{< fa download >}} Download Full PDF ](cv.pdf){.btn .btn-primary role="button" style="color:white;" download="Matthew_DeHaven_CV.pdf"}
+:::
+
+```{=html}
+
+<div class="cv-container">
+  <div class="cv-pages">
+    <img src="../CV/images/cv-page-1.png" alt="Page 1 of CV" class="cv-page">
+    <img src="../CV/images/cv-page-2.png" alt="Page 2 of CV" class="cv-page">
+  </div>
+</div>
+
+<style>
+  .cv-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .cv-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  .cv-page {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border: 1px solid #ddd;
+  }
+</style>
+```
