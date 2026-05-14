@@ -13,7 +13,7 @@ $base1:     #93a1a1;
 $base2:     #eee8d5;
 $base3:     #fdf6e3;
 $yellow:    #b58900;
-$orange:    #cb4b16;
+$orange:    #cb4b16; 
 $red:       #dc322f;
 $magenta:   #d33682;
 $violet:    #6c71c4;
@@ -25,13 +25,15 @@ $green:     #859900;
 $body-bg:       $base3 !default;   // Warm cream background
 $body-color:    $base01 !default;  // Main body text
 $primary:       $blue !default;
-$secondary:     $base01 !default;
+$secondary:     $orange !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $base2 !default;   // Slightly darker than body-bg for contrast
-$dark:          $base02 !default;
+$dark:          $base03 !default;
+
+$headings-color: $base01 !default;
 
 // 3. Your specific Navbar settings
 $navbar-bg:               $base2 !default;  // Sets navbar slightly apart from the body
