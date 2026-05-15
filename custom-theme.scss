@@ -87,3 +87,37 @@ $navbar-brand-font-size: 1rem !default;
   // Uses an rgba version of $dark for the shadow
   box-shadow: 0 2px 5px rgba(7, 54, 66, 0.2); 
 }
+
+// MOBILE-ONLY STYLES (for screens smaller than 992px)
+@media (max-width: 992px) {
+  
+  // 1. Hide the text labels
+  // 2. The "Magic Trick": Make text invisible but keep icons
+  body .about-link-text {
+    font-size: 0 !important; // Vanishes the "Google Scholar", "Email", etc.
+  }
+
+  // 3. Resuscitate the icons
+  body .about-link i {
+    font-size: 1rem !important; // Gives the icons their size back
+    margin: 0 !important;         // Removes any lingering text-spacing
+    display: inline-block;
+  }
+  // 2. Force the container to stay horizontal and centered
+  body .about-links {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px; // Space between the icons
+  }
+
+  // 3. Make the buttons look like square/rounded touch targets
+  body .about-link {
+    margin-bottom: 0 !important; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
