@@ -21,37 +21,69 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
-// 2. Map core Bootstrap theme variables to Solarized
-$body-bg:       $base3 !default;   // Warm cream background
-$body-color:    $base01 !default;  // Main body text
+// 2. Consistent Bootstrap Mapping
+$body-bg:       $base3 !default;   
+$body-color:    $base01 !default;  // Standard text
 $primary:       $blue !default;
 $secondary:     $orange !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $base2 !default;   // Slightly darker than body-bg for contrast
-$dark:          $base03 !default;
+$light:         $base2 !default;   
+$dark:          $base02 !default;  // Darker shade for contrast (used for titles/links)
+$headings-color: $dark !default;   // Force headers to use the darker shade
 
-$headings-color: $base01 !default;
-
-// 3. Your specific Navbar settings
-$navbar-bg:               $base2 !default;  // Sets navbar slightly apart from the body
-$navbar-fg:               $base02 !default; // Darker text for readability
-$navbar-brand-font-size:  1.25rem !default;
+// 3. Navbar Mapping
+$navbar-bg:               $light !default;
+$navbar-fg:               $dark !default;
+$navbar-brand-font-size: 1rem !default;
 
 /*-- scss:rules --*/ 
 
+// General Navbar
 .navbar {
   border: 0px !important;
 }
 
-// Make listing title change color on hover
+// When the screen is wider than 992px (Bootstrap's 'large' breakpoint)
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 1.25rem !important;
+  }
+}
+
+// Listing Titles
 .listing-title a {
-  color: $base02; // Replaced $black with Solarized dark text
+  color: $dark; 
   text-decoration: none;
 }
 
 .listing-title a:hover {
   color: $primary;
+}
+
+// Global Button Text Color Overrides
+// Uses $body-bg (cream) as the text color for the blue button
+.btn-primary {
+  color: $body-bg !important;
+}
+
+.btn-primary:hover {
+  color: $light !important;
+}
+
+// About Links
+.about-links .about-link {
+  border: 1px solid $body-color !important; 
+  color: $dark !important;                  // FIXED: Uses base02 so text isn't too light
+  transition: all 0.2s ease-in-out !important;
+}
+
+.about-links .about-link:hover {
+  background-color: $light !important;      // Subtle cream-darker highlight
+  color: $primary !important;           
+  border-color: $primary !important;      
+  // Uses an rgba version of $dark for the shadow
+  box-shadow: 0 2px 5px rgba(7, 54, 66, 0.2); 
 }
