@@ -2,6 +2,7 @@
   {
     "listing": "/research/index.html",
     "items": [
+      "/research/work-in-progress/2026-05-15-Domestic-Uncertainty/index.html",
       "/research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
       "/research/working-papers/2024-11-14-Market-Price-of-Risk/index.html",
       "/research/published-papers/2023-03-01-Identifying-Financial-Crises-Text-Date/index.html",
@@ -12,7 +13,9 @@
   {
     "listing": "/teaching/index.html",
     "items": [
-      "/teaching/course-applied-economics-analysis/index.html"
+      "/teaching/course-applied-economics-analysis/index.html",
+      "/teaching/ta-intermediate-macroeconomics/index.html",
+      "/teaching/ta-macroeconomics/index.html"
     ]
   }
 ]

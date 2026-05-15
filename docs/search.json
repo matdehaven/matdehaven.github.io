@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Matthew DeHaven",
     "section": "",
-    "text": "I am a Ph.D. candidate in Economics at Brown University.\nMy interests are in macroeconomics, international finance, and monetary policy. In particular, I hope to study the causes of recessions and financial crises, and the best policies to aid recoveries."
+    "text": "I am a Ph.D. candidate in Economics at Brown University. Currently, I am visiting the Federal Reserve Board of Governors as a Dissertation Fellow for the summer of 2026.\nMy interests are in macroeconomics, international finance, and macro-finance. In particular, I study risk and uncertainty and their implications for the macroeconomy and financial markets. I hope to use my research to better inform policy responses to economic shocks in order to mitigate the business cycle.\n\n\n\n\n\n\nImportant2026-2027 Job Market\n\n\n\nI will be on the 2026-2027 academic job market. My job market paper, “Asset Price Responses to Domestic Uncertainty Shocks,” can be found here."
   },
   {
     "objectID": "research/other-research/2021-06-22-The-Global-Recovery/index.html",
@@ -88,7 +88,7 @@
     "href": "research/index.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\nNo matching items"
+    "text": "Work in Progress\n\n\n\n\n  \n\n  \n\n      \n      \n          \n            Asset Price Responses to Domestic Uncertainty Shocks\n          \n          \n\n          \n            \n            \n            \n            \n               Matthew DeHaven.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n  \n\n      \n      \n          \n            The Price of Risk Drives the Business Cycle\n          \n          \n\n          \n            \n            \n            \n            \n               Tobias Adrian, Matthew DeHaven, Fernando Duarte.  \n            \n            \n            \n            \n          \n          \n\n      \n\n  \n  \n\n\nNo matching items"
   },
   {
     "objectID": "research/index.html#working-papers",
@@ -144,7 +144,7 @@
     "href": "teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "All of my teaching resources."
+    "text": "All of my teaching resources. Click on each course to learn more and to access the course materials."
   },
   {
     "objectID": "teaching/index.html#other-teaching-experience",
@@ -159,5 +159,26 @@
     "title": "Matthew DeHaven",
     "section": "",
     "text": "Download Full PDF"
+  },
+  {
+    "objectID": "research/work-in-progress/2026-05-15-Domestic-Uncertainty/index.html",
+    "href": "research/work-in-progress/2026-05-15-Domestic-Uncertainty/index.html",
+    "title": "Asset Price Responses to Domestic Uncertainty Shocks",
+    "section": "",
+    "text": "Important2026-2027 Job Market Paper\n\n\n\nDraft coming soon.\n\n\n\nAbstract\nHow do domestic uncertainty shocks affect the macroeconomy and financial markets? I study this question in a New Keynesian small open economy model with stochastic volatility and incomplete international risk sharing. I find that in an open economy, the effects of domestic uncertainty shocks depend upon the source of uncertainty. Domestic productivity uncertainty shocks lead to an increase in the foreign bond risk premium and an appreciation of the nominal exchange rate. Domestic demand uncertainty shocks can lead to a depreciation instead. Taking the model to data on the United Kingdom, I show that dometic uncertainty tends to depreciate the exchange rate, collapse stock prices, and steepen the yield curve. My model can account for these patterns using the correct source of uncertainty shocks."
+  },
+  {
+    "objectID": "teaching/ta-intermediate-macroeconomics/index.html",
+    "href": "teaching/ta-intermediate-macroeconomics/index.html",
+    "title": "Intermediate Macroeconomics",
+    "section": "",
+    "text": "TA’d for an undergraduate course on Intermediate Macroeconomics at Brown University in Fall 2023."
+  },
+  {
+    "objectID": "teaching/ta-macroeconomics/index.html",
+    "href": "teaching/ta-macroeconomics/index.html",
+    "title": "Macroeconomics",
+    "section": "",
+    "text": "TA’d for first year graduate course on Macroeconomics at Brown University in Fall 2022 and Spring 2023."
   }
 ]

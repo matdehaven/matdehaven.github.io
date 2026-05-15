@@ -1,0 +1,9 @@
+---
+title: "Macroeconomics"
+author: Matthew DeHaven
+categories: ["graduate"]
+Role: ["TA"]
+Taught: ["2022", "2023"]
+---
+
+TA'd for first year graduate course on Macroeconomics at Brown University in Fall 2022 and Spring 2023.

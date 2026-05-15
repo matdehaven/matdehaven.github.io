@@ -121,3 +121,39 @@ $navbar-brand-font-size: 1rem !default;
   }
 
 }
+
+
+
+// ==========================================
+// QUARTO CALLOUT OVERRIDES (Important/Default)
+// ==========================================
+
+// 1. The Main Container
+body div.callout-important.callout-style-default, div.callout-important.callout-style-simple{
+  border-color: $secondary !important;
+  border-radius: 8px !important;
+  overflow: hidden; // Ensures the header background doesn't bleed over corners
+  box-shadow: 0 4px 10px rgba(7, 54, 66, 0.1);
+  margin: 2rem 0;
+}
+
+// 2. The Header Block (Title Bar)
+body div.callout-important.callout-style-default .callout-header {
+  background-color: $light !important;
+  color: $body-color !important;    
+  padding: 0.75rem 1rem;
+}
+
+// 3. The Header Icon & Title Text
+body div.callout-important.callout-style-default .callout-header .callout-icon-container,
+body div.callout-important.callout-style-default .callout-header .callout-title-container {
+  color: $dark !important; 
+  font-size: 1rem;
+}
+
+// 4. The Body Block
+body div.callout-important.callout-style-default .callout-body-container {
+  background-color: $body-bg !important;
+  color: $body-color !important; 
+  padding: 1rem;
+}

@@ -1,0 +1,9 @@
+---
+title: "Intermediate Macroeconomics"
+author: Matthew DeHaven
+categories: ["undergraduate"]
+Role: ["TA"]
+Taught: ["2023"]
+---
+
+TA'd for an undergraduate course on Intermediate Macroeconomics at Brown University in Fall 2023.

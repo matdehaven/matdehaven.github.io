@@ -3,7 +3,7 @@ title: "Applied Economics Analysis"
 author: Matthew DeHaven
 categories: ["graduate"]
 Role: ["Course Designer, Instructor"]
-Taught: ["2024", "2025"]
+Taught: ["2024", "2025", "2026"]
 aliases: ["/course-applied-economics-analysis/index.html"]
 ---
 

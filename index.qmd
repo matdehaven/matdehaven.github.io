@@ -23,6 +23,14 @@ about:
       target: _blank
 ---
 
-I am a Ph.D. candidate in Economics at Brown University.
+I am a Ph.D. candidate in Economics at Brown University. Currently, I am visiting the Federal Reserve Board of Governors as a Dissertation Fellow for the summer of 2026.
 
-My interests are in macroeconomics, international finance, and monetary policy. In particular, I hope to study the causes of recessions and financial crises, and the best policies to aid recoveries.
+My interests are in macroeconomics, international finance, and macro-finance.
+In particular, I study risk and uncertainty and their implications for the macroeconomy and financial markets.
+I hope to use my research to better inform policy responses to economic shocks in order to mitigate the business cycle.
+
+:::{.callout-important}
+## 2026-2027 Job Market
+I will be on the 2026-2027 academic job market.
+My job market paper, **"Asset Price Responses to Domestic Uncertainty Shocks,"** can be found [here](research/work-in-progress/2026-05-15-Domestic-Uncertainty/index.qmd).
+:::

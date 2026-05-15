@@ -1,0 +1,38 @@
+---
+format: 
+  html:
+    template-partials: ../../../custom/title-block.html
+title: "Asset Price Responses to Domestic Uncertainty Shocks"
+author: 
+  - Matthew DeHaven
+# date:
+categories: ["business cycles", "financial", "international"]
+# image: 
+# pdf-url:
+# external-url:
+# external-name:
+# citation:
+#   type: article-journal
+#   container-title:
+#   volume:
+#   issue:
+#   page-first:
+#   issn:
+#   doi:
+---
+
+
+:::{.callout-important appearance="simple"}
+## 2026-2027 Job Market Paper
+Draft coming soon.
+:::
+
+# Abstract
+
+How do domestic uncertainty shocks affect the macroeconomy and financial markets?
+I study this question in a New Keynesian small open economy model with stochastic volatility and incomplete international risk sharing.
+I find that in an open economy, the effects of domestic uncertainty shocks depend upon the source of uncertainty.
+Domestic productivity uncertainty shocks lead to an increase in the foreign bond risk premium and an appreciation of the nominal exchange rate.
+Domestic demand uncertainty shocks can lead to a depreciation instead.
+Taking the model to data on the United Kingdom, I show that dometic uncertainty tends to depreciate the exchange rate, collapse stock prices, and steepen the yield curve.
+My model can account for these patterns using the correct source of uncertainty shocks.
