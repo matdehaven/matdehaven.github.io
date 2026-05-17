@@ -31,15 +31,14 @@ num_pages <- pdf_info(pdf_path)$pages
 img_filenames <- sprintf("cv-page-%d.png", 1:num_pages)
 img_filepaths <- file.path(img_dir, img_filenames)
 
-# 3. Convert PDF to PNGs 
-# (invisible() and verbose = FALSE keep the build logs clean)
-invisible(pdf_convert(
+# 3. Convert PDF to PNGs
+pdf_convert(
   pdf = pdf_path, 
   format = "png", 
   dpi = 150, 
   filenames = img_filepaths,
-  verbose = FALSE
-))
+  verbose = FALSE,
+)
 
 
 ```

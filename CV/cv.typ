@@ -15,6 +15,32 @@
   paper-size: "us-letter"
 )
 
+= References
+
+#v(0.5em) // Add a little breathing room
+#align(center)[#grid(
+  columns: (1fr, 1fr, 1fr), // Three columns of equal width
+  gutter: 1em,              // Space between columns
+  [
+    *Şebnem-Kalemli Özcan*\
+    Brown University\
+    Department of Economics\
+    #link("mailto:sebnem_kalemli-ozcan@brown.edu")[#raw("sebnem_kalemli-ozcan@brown.edu")]
+  ],
+  [
+    *Gauti B. Eggertsson*\
+    Brown University\
+    Department of Economics\
+    #link("mailto:gauti_eggertsson@brown.edu")[#raw("gauti_eggertsson@brown.edu")]
+  ],
+  [
+    *Fernando Duarte*\
+    Brown University\
+    Department of Economics\
+    #link("mailto:fernando_duarte@brown.edu")[#raw("fernando_duarte@brown.edu")]
+  ]
+)]
+
 = Education
 
 #resume-entry(
@@ -53,8 +79,8 @@ Built experience coding in R and Python.
 #resume-item[
   - Applied Economics Analysis
 ]
-Developed course and delivered all lectures. Class focused on programming, version control,
-and creating reproducible research
+Developed course and delivered all lectures.
+Class focused on programming, version control, and creating reproducible research.
 
 
 #resume-entry(
@@ -84,17 +110,17 @@ Southern Economic Association (November 23-25, 2024)
 = Research
 
 
-=== Working Papers
+== Working Papers
 
 Adrian, Tobias, Matthew DeHaven, Fernando Duarte, and Tara Iyer. 2023. "The Market Price of Risk and Macro-Financial Dynamics." IMF Working Papers 2023 (199).
 
-=== Work in Progress
+== Work in Progress
 
 Adrian, Tobias, Matthew DeHaven, and Fernando Duarte. "The Price of Risk Drives the Business Cycle."
 
 DeHaven, Matthew. "Domestic Uncertainty Shocks in a New Keynesian Open Economy."
 
 
-=== Published Papers
+== Published Papers
 
 Chen, Mary, Matthew DeHaven, Isabel Kitschelt, Seung Jung Lee, and Martin J. Sicilian. 2023. "Identifying Financial Crises Using Machine Learning on Textual Data." Journal of Risk and Financial Management 16 (3): 161.
