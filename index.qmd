@@ -19,8 +19,7 @@ about:
       href: mailto:matthew_dehaven@brown.edu
     - icon: file-earmark-person
       text: CV
-      href: CV/cv.pdf
-      target: _blank
+      href: CV/index.qmd
 ---
 
 I am a Ph.D. candidate in Economics at Brown University. Currently, I am visiting the Federal Reserve Board of Governors as a Dissertation Fellow for the summer of 2026.

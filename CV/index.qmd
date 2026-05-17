@@ -1,4 +1,5 @@
 ---
+title: "CV"
 format:
   html:
     toc: false
@@ -40,18 +41,19 @@ invisible(pdf_convert(
   verbose = FALSE,
 ))
 
+version_slug <- as.numeric(Sys.time())
 ```
 
 :::{.text-center}
-[ {{< fa download >}} Download Full PDF ](cv.pdf){.btn .btn-primary role="button" style="color:white;" download="Matthew_DeHaven_CV.pdf"}
+[ {{< fa download >}} Download Full PDF ](cv.pdf?v=`r version_slug`){.btn .btn-primary role="button" style="color:white;" download="Matthew_DeHaven_CV.pdf"}
 :::
 
 ```{=html}
 
 <div class="cv-container">
   <div class="cv-pages">
-    <img src="../CV/images/cv-page-1.png" alt="Page 1 of CV" class="cv-page">
-    <img src="../CV/images/cv-page-2.png" alt="Page 2 of CV" class="cv-page">
+    <img src="../CV/images/cv-page-1.png?v=`r version_slug`" alt="Page 1 of CV" class="cv-page">
+    <img src="../CV/images/cv-page-2.png?v=`r version_slug`" alt="Page 2 of CV" class="cv-page">
   </div>
 </div>
 
