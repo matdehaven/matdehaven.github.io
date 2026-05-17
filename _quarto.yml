@@ -31,7 +31,7 @@ website:
 format:
   html:
     include-in-header:
-      text: <link rel="apple-touch-icon" sizes="180x180" href="static-content/logo/logo-180x180.png">
+      text: <link rel="apple-touch-icon" sizes="180x180" href="/static-content/logo/apple-touch-icon.png">
     theme: 
       - simplex
       - custom-theme.scss

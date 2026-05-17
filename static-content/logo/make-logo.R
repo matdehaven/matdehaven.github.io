@@ -67,6 +67,16 @@ ggsave(
   bg = "transparent"
 )
 
+## Save one as a png with 180 x 180 pixels, for apple touch icon
+## Key to set background solid
+ggsave(
+  "./static-content/logo/apple-touch-icon.png",
+  p,
+  width = 1,
+  height = 1,
+  dpi = 180,
+  bg = "gray50"
+)
 
 ## Save one as SVG
 ggsave(
