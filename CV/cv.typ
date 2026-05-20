@@ -101,7 +101,8 @@ Furman University Visiting Scholar (October 30-31, 2025),
 Stanford Big-Data Initiative in International Macro-Finance (August 2025),
 Southern Economic Association (November 23-25, 2024)
 
-
+= Awards and Honors
+Teaching Award, Brown University (2026), department nomination for Presidential Award for Excellence in Teaching, Brown University (2025, 2026)
 
 
 
