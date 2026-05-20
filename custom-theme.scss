@@ -157,3 +157,196 @@ body div.callout-important.callout-style-default .callout-body-container {
   color: $body-color !important; 
   padding: 1rem;
 }
+
+
+// ==========================================
+// RESEARCH LISTING CARDS
+// ==========================================
+
+.research-listing {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.research-card {
+  position: relative;
+  display: flex;
+  gap: 1.25rem;
+  padding: 1rem 1.25rem;
+  background-color: $body-bg;
+  border: 1px solid rgba($base01, 0.15);
+  border-radius: 8px;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  &:hover {
+    border-color: $primary;
+    box-shadow: 0 4px 12px rgba($dark, 0.12);
+    transform: translateY(-1px);
+
+    .listing-title a {
+      color: $primary;
+    }
+  }
+
+  // Thumbnail column
+  .thumbnail {
+    flex: 0 0 32%;
+    max-width: 280px;
+    min-width: 160px;
+    order: 2;
+    display: flex;
+    align-items: center;       
+    justify-content: center;
+    padding-left: 0.5rem; 
+
+    a {
+      display: block;
+      width: 100%;
+    }
+
+    .thumbnail-image {
+      width: 100%;
+      height: auto;
+      max-height: 150px;    
+      object-fit: contain;
+      border-radius: 6px;
+      margin: 0 auto;      
+      display: block;
+    }
+  }
+
+  // Body column
+  .body {
+    flex: 1 1 auto;
+    min-width: 0;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    header {
+      margin: 0;
+    }
+  }
+
+  .listing-title {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.35;
+
+    a {
+      transition: color 0.15s ease-in-out;
+    }
+  }
+
+  .listing-subtitle {
+    color: $base00;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-top: 0.15rem;
+  }
+
+  // Metadata + buttons share one line
+  .metadata {
+    color: $base00;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    display: inline;
+
+    em {
+      color: $base01;
+    }
+  }
+}
+
+// Research link buttons — now inline with metadata text
+.research-card .research-links {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+
+  .research-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.15rem 0.55rem;
+    font-size: 0.72rem;
+    line-height: 1.4;
+    color: $primary;
+    background-color: transparent;
+    border: 1px solid $primary;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+
+    &:hover,
+    &:focus-visible {
+      background-color: $primary;
+      color: $body-bg;
+    }
+
+    i {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+// Empty-state message
+.research-empty {
+  text-align: center;
+  font-size: 0.85rem;
+  color: $base00;
+  padding: 1.5rem 0;
+}
+
+// Responsive: rm image on small screens
+@media (max-width: 575.98px) {
+  .research-card {
+    .thumbnail {
+      display: none;
+    }
+  }
+}
+
+// ==========================================
+// RESEARCH CARD — CALLOUT VARIANT
+// ==========================================
+// Activated by `callout-important: "..."` in a paper's YAML.
+// Mirrors the visual language of div.callout-important: $secondary border,
+// soft shadow, and a small pill badge with the callout text.
+
+.research-card.is-callout {
+  border-color: $secondary;
+  border-width: 2px;
+  box-shadow: 0 4px 10px rgba($dark, 0.1);
+
+  &:hover {
+    border-color: $secondary;        // keep the secondary color on hover
+    box-shadow: 0 6px 14px rgba($secondary, 0.18);
+
+    .listing-title a {
+      color: $secondary;             // title shifts to secondary instead of primary
+    }
+  }
+}
+
+// The pill badge rendered at the start of the metadata row
+.callout-pill {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  margin-right: 0.15rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: $body-bg;                   // cream text on orange background
+  background-color: $secondary;
+  border-radius: 999px;              // full pill shape
+  vertical-align: middle;
+  white-space: nowrap;
+}

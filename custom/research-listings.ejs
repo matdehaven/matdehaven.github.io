@@ -1,56 +1,84 @@
 ```{=html}
 <% if (items[0]) { %>
-<div class="archive list">
+<div class="archive list research-listing">
+<% for (const item of items) { %>
+  <%
+    const hasDate = !!item.date;
+    const hasAuthor = !!item.author;
+    const hasVenue = !!(item.citation && item.citation["container-title"]);
+    const hasAnyMeta = hasDate || hasAuthor || hasVenue;
+    const hasPdf = !!item["pdf-url"];
+    const hasExternal = !!(item["external-links"] && item["external-links"].length);
+    const hasLinks = hasPdf || hasExternal;
+    const calloutText = item["callout-important"];
+    const hasCallout = !!(calloutText && String(calloutText).trim().length);
+  %>
+  <article class="quarto-post research-card<%= hasCallout ? ' is-callout' : '' %>" <%= metadataAttrs(item) %>>
+    <% if (item.image) { %>
+    <div class="thumbnail">
+      <a href="<%- item.path %>" class="no-external" tabindex="-1" aria-hidden="true">
+        <img src="<%- item.image %>"
+             alt=""
+             class="thumbnail-image"
+             loading="lazy"
+             decoding="async">
+      </a>
+    </div>
+    <% } %>
 
-  <% for (const item of items) { %>
+    <div class="body">
+      <header>
+        <h4 class="no-anchor listing-title">
+          <a href="<%- item.path %>" class="no-external stretched-link">
+            <%= item.title %>
+          </a>
+        </h4>
+        <% if (item.subtitle) { %>
+        <div class="listing-subtitle"><%= item.subtitle %></div>
+        <% } %>
+      </header>
 
-  <div class="quarto-post image-right" <%= metadataAttrs(item) %>>
+      <% if (hasCallout || hasAnyMeta || hasLinks) { %>
+      <div class="metadata">
+        <% if (hasCallout) { %><span class="callout-pill"><%= calloutText %></span><% } %>
+        <% if (hasCallout && hasAnyMeta) { %> <% } %>
+        <% if (hasDate) { %><span class="meta-date"><%= item.date %></span><% } %>
+        <% if (hasDate && (hasAuthor || hasVenue)) { %> &middot; <% } %>
+        <% if (hasAuthor) { %><span class="meta-author"><%= item.author %></span><% } %>
+        <% if (hasAuthor && hasVenue) { %> &middot; <% } %>
+        <% if (hasVenue) { %><span class="meta-venue"><em><%= item.citation["container-title"] %></em></span><% } %>
 
-      <% if (item.image) { %>
-      <div class="thumbnail" style = "flex-basis: 30%">
-        <a href="<%- item.path %>" class="no-external">
-              <p><img src="<%- item.image %>" class="thumbnail-image" style = "margin-top: 0rem;"></p>
-        </a>
+        <% if (hasLinks) { %>
+        <span class="research-links" aria-label="Related links">
+          <% if (hasPdf) { %>
+          <a href="<%= item['pdf-url'] %>"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="research-link-btn"
+             aria-label="<%= item.title %> (PDF)">
+            <i class="bi bi-file-pdf" aria-hidden="true"></i><span>PDF</span>
+          </a>
+          <% } %>
+          <% if (hasExternal) { %>
+            <% for (const link of item["external-links"]) { %>
+            <a href="<%= link.url %>"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="research-link-btn"
+               aria-label="<%= item.title %> &mdash; <%= link.name %>">
+              <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i><span><%= link.name %></span>
+            </a>
+            <% } %>
+          <% } %>
+        </span>
+        <% } %>
       </div>
       <% } %>
-      <div class="body">
-          <h4 class="no-anchor listing-title" style = "margin-top: 0.25rem"><a href="<%- item.path %>" class="no-external">
-            <%= item.title %></a>
-          </h4>
-          <div class="listing-subtitle"><a href="<%- item.path %>" class="no-external"><%= item.subtitle %></a></div>
-
-          <div class = "metadata">
-            <span>
-            
-            <% if (item.date) { %>
-              <a href="<%- item.path %>" class="no-external"> <%= item.date %>. </a> 
-            <% } %>
-            <% if (item.author) { %>
-              <a href="<%- item.path %>" class="no-external"> <%= item.author %>. </a> 
-            <% } %>
-            <% if (item.citation) { %>
-              <% if (item.citation["container-title"]) { %>
-                <a href="<%- item.path %>" class="no-external"> <i> <%= item.citation["container-title"] %>. </i> </a>
-              <% } %>
-            <% } %>
-            <% if (item["pdf-url"]) { %>
-            <a href=<%= item["pdf-url"]%> title = "PDF" target = "_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-file-pdf"></i> PDF</button></a>
-            <% } %>
-            <% if (item["external-links"]) { %>
-              <% for (const links of item["external-links"]) { %>
-                <a href=<%= links.url%> title = "External Link" target = "_blank"> <button type="button" class="btn btn-outline-primary btn-sm" style = "padding: 0.25em 0.75em; font-size: 0.75em; margin-bottom: 0.2rem;"><i class="bi-box-arrow-up-right"></i> <%= links.name%></button></a>
-              <% } %>
-            <% } %>
-          </span>
-          </div>
-
-      </div>
-
-  </div>
-  <% } %>
-</div>
-<% } else {%>
-  <p class="text-center" style = "font-size: 0.85rem;">No Content</p>
+    </div>
+  </article>
 <% } %>
-
+</div>
+<% } else { %>
+<p class="research-empty">No content yet.</p>
+<% } %>
 ```

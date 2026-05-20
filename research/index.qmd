@@ -38,23 +38,23 @@ listing:
 All of my published and unpublished research projects.
 Click on each project to learn more.
 
-## Work in Progress
+#### Work in Progress
 
 :::{#work-in-progress}
 :::
 
-## Working Papers
+#### Working Papers
 
 :::{#working-papers}
 :::
 
-## Published Papers
+#### Published Papers
 
 :::{#published-papers}
 :::
 
 
-## Other Research
+#### Other Research
 
 :::{#other-research}
 :::
