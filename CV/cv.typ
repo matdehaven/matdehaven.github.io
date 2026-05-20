@@ -7,7 +7,7 @@
       email: "matthew_dehaven@brown.edu",
       phone: "+1 919-548-7939",
       website: "matthewdehaven.com",
-      address: "125 Pleasant St., Providence, RI 02906",
+      address: "Providence, RI",
       positions: ()
   ),
   profile-picture: none,
