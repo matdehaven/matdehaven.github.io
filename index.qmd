@@ -22,11 +22,10 @@ about:
       href: CV/index.qmd
 ---
 
-I am a Ph.D. candidate in Economics at Brown University. Currently, I am visiting the Federal Reserve Board of Governors as a Dissertation Fellow for the summer of 2026.
+I am a Ph.D. candidate in Economics at Brown University and a member of the [Global Linkages Lab](https://www.globallinkages.org). Currently, I am visiting the Federal Reserve Board of Governors as a Dissertation Fellow for the summer of 2026.
 
 My interests are in macroeconomics, international finance, and macro-finance.
 In particular, I study risk and uncertainty and their implications for the macroeconomy and financial markets.
-I hope to use my research to better inform policy responses to economic shocks in order to mitigate the business cycle.
 
 :::{.callout-important}
 ## 2026-2027 Job Market
