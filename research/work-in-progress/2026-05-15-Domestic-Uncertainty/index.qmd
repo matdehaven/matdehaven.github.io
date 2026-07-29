@@ -2,7 +2,7 @@
 format: 
   html:
     template-partials: ../../../custom/title-block.html
-title: "Asset Price Responses to Domestic Uncertainty Shocks"
+title: "Source Matters: Demand vs. Supply Uncertainty in a Small Open Economy"
 author: 
   - Matthew DeHaven
 # date:
@@ -34,6 +34,6 @@ How do domestic uncertainty shocks affect the macroeconomy and financial markets
 I study this question in a New Keynesian small open economy model with stochastic volatility and incomplete international risk sharing.
 I find that in an open economy, the effects of domestic uncertainty shocks depend upon the source of uncertainty.
 Domestic productivity uncertainty shocks lead to an increase in the foreign bond risk premium and an appreciation of the nominal exchange rate.
-Domestic demand uncertainty shocks can lead to a depreciation instead.
-Taking the model to data on the United Kingdom, I show that dometic uncertainty tends to depreciate the exchange rate, collapse stock prices, and steepen the yield curve.
-My model can account for these patterns using the correct source of uncertainty shocks.
+Domestic demand uncertainty shocks lead to a depreciation instead.
+In data from the United Kingdom, I separate supply and demand uncertainty shocks and find they have opposite responses in the nominal exchange rate.
+My model can account for this pattern with shocks to different sources of uncertainty.
