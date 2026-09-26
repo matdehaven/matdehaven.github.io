@@ -2,7 +2,7 @@
 title: "Matthew DeHaven"
 about:
   template: jolla
-  image: static-content/profile.jpg
+  image: static-content/profile-v2.jpg
   links:
     - icon: github
       text: Github
