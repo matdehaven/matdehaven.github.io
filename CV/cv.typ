@@ -34,10 +34,10 @@
     #link("mailto:gauti_eggertsson@brown.edu")[#raw("gauti_eggertsson@brown.edu")]
   ],
   [
-    *Fernando Duarte*\
+    *Amy Handlan*\
     Brown University\
     Department of Economics\
-    #link("mailto:fernando_duarte@brown.edu")[#raw("fernando_duarte@brown.edu")]
+    #link("mailto:amy_handlan@brown.edu")[#raw("amy_handlan@brown.edu")]
   ]
 )]
 
@@ -65,9 +65,7 @@
   date: "2018 - 2021",
   description: "Research Assistant"
 )
-Worked in the International Finance Division studying International Financial Stability and
-assisting the division director. Daily work contained a mix of policy and research projects.
-Built experience coding in R and Python.
+Worked in the International Finance Division. In third year worked as research assistant for the division director.
 
 = Teaching
 #resume-entry(
@@ -77,7 +75,7 @@ Built experience coding in R and Python.
   description: "Teaching Fellow"
 )
 #resume-item[
-  - Applied Economics Analysis
+  - Applied Economics Analysis (first year PhD course)
 ]
 Developed course and delivered all lectures.
 Class focused on programming, version control, and creating reproducible research.
@@ -102,7 +100,8 @@ Stanford Big-Data Initiative in International Macro-Finance (August 2025),
 Southern Economic Association (November 23-25, 2024)
 
 = Awards and Honors
-Teaching Award, Brown University (2026), department nomination for Presidential Award for Excellence in Teaching, Brown University (2025, 2026)
+Teaching Award, Brown University (2026),
+department nominee for Presidential Award for Excellence in Teaching, Brown University (2025, 2026)
 
 
 
@@ -125,5 +124,5 @@ Teaching Award, Brown University (2026), department nomination for Presidential 
 
 == Work in Progress
 
-- DeHaven, Matthew. "Asset Price Responses to Domestic Uncertainty Shocks." #strong[Job Market Paper]
+- DeHaven, Matthew. "Source Matters: Demand vs. Supply Uncertainty in a Small Open Economy." #strong[Job Market Paper]
 - Adrian, Tobias, Matthew DeHaven, and Fernando Duarte. "The Price of Risk Drives the Business Cycle."
