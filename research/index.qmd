@@ -33,14 +33,19 @@ listing:
     fields: [image, date, title, author, categories]
     contents:
       - "other-research/**/*.qmd"
+  - id: jmp
+    type: default
+    template: ../custom/research-listings.ejs
+    categories: true
+    fields: [image, date, title, author, categories]
+    contents:
+      - "jmp/**/*.qmd"
 ---
 
 All of my published and unpublished research projects.
 Click on each project to learn more.
 
-#### Work in Progress
-
-:::{#work-in-progress}
+:::{#jmp}
 :::
 
 #### Working Papers
@@ -51,6 +56,11 @@ Click on each project to learn more.
 #### Published Papers
 
 :::{#published-papers}
+:::
+
+#### Work in Progress
+
+:::{#work-in-progress}
 :::
 
 

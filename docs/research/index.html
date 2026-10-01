@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute-dir","listing-website","listing-format","listing-editor","listing-engines","listing-language","listing-title","listing-author","listing-categories","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-callout-important"],
+      searchColumns: ["listing-project","listing-execute-dir","listing-website","listing-format","listing-editor","listing-engines","listing-language","listing-title","listing-author","listing-categories","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -174,6 +174,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-other-research'] = new List('listing-other-research', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-jmp .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-execute-dir","listing-website","listing-format","listing-editor","listing-engines","listing-language","listing-title","listing-author","listing-categories","listing-callout-important","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-jmp'] = new List('listing-jmp', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -298,9 +326,7 @@ window.Quarto = {
 
 
 <p>All of my published and unpublished research projects. Click on each project to learn more.</p>
-<section id="work-in-progress" class="level4">
-<h4 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h4>
-<div id="listing-work-in-progress" class="quarto-listing quarto-listing-container-custom">
+<div id="listing-jmp" class="quarto-listing quarto-listing-container-custom">
 
 <div class="archive list research-listing">
 
@@ -311,7 +337,7 @@ window.Quarto = {
     <div class="body">
       <header>
         <h4 class="no-anchor listing-title">
-          <a href="../research/work-in-progress/2026-05-15-Domestic-Uncertainty/index.html" class="no-external stretched-link">
+          <a href="../research/jmp/2026-05-15-Domestic-Uncertainty/index.html" class="no-external stretched-link">
             Source Matters: Demand vs. Supply Uncertainty in a Small Open Economy
           </a>
         </h4>
@@ -334,41 +360,10 @@ window.Quarto = {
     </div>
   </article>
 
-  
-  <article class="quarto-post research-card" data-index="1" data-categories="YnVzaW5lc3MlMjBjeWNsZXMlMkNmaW5hbmNpYWw=" data-listing-file-modified-sort="1769799629379" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
-    
-
-    <div class="body">
-      <header>
-        <h4 class="no-anchor listing-title">
-          <a href="../research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html" class="no-external stretched-link">
-            The Price of Risk Drives the Business Cycle
-          </a>
-        </h4>
-        
-      </header>
-
-      
-      <div class="metadata">
-        
-        
-        
-        
-        <span class="meta-author">Tobias Adrian, Matthew DeHaven, Fernando Duarte</span>
-        
-        
-
-        
-      </div>
-      
-    </div>
-  </article>
-
 </div>
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</section>
 <section id="working-papers" class="level4">
 <h4 class="anchored" data-anchor-id="working-papers">Working Papers</h4>
 <div id="listing-working-papers" class="quarto-listing quarto-listing-container-custom">
@@ -497,6 +492,47 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
+<section id="work-in-progress" class="level4">
+<h4 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h4>
+<div id="listing-work-in-progress" class="quarto-listing quarto-listing-container-custom">
+
+<div class="archive list research-listing">
+
+  
+  <article class="quarto-post research-card" data-index="0" data-categories="YnVzaW5lc3MlMjBjeWNsZXMlMkNmaW5hbmNpYWw=" data-listing-file-modified-sort="1790871755660" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
+    
+
+    <div class="body">
+      <header>
+        <h4 class="no-anchor listing-title">
+          <a href="../research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html" class="no-external stretched-link">
+            The Price of Risk Drives the Business Cycle
+          </a>
+        </h4>
+        
+      </header>
+
+      
+      <div class="metadata">
+        
+        
+        
+        
+        <span class="meta-author">Tobias Adrian, Matthew DeHaven, Fernando Duarte</span>
+        
+        
+
+        
+      </div>
+      
+    </div>
+  </article>
+
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
 <section id="other-research" class="level4">
 <h4 class="anchored" data-anchor-id="other-research">Other Research</h4>
 <div id="listing-other-research" class="quarto-listing quarto-listing-container-custom">
@@ -504,7 +540,7 @@ window.Quarto = {
 <div class="archive list research-listing">
 
   
-  <article class="quarto-post research-card" data-index="0" data-categories="ZmluYW5jaWFsJTJDaW50ZXJuYXRpb25hbCUyQ3BvbGl0aWNhbCUyMGVjb25vbXk=" data-listing-date-sort="1719979200000" data-listing-file-modified-sort="1769799629378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3259">
+  <article class="quarto-post research-card" data-index="0" data-categories="ZmluYW5jaWFsJTJDaW50ZXJuYXRpb25hbCUyQ3BvbGl0aWNhbCUyMGVjb25vbXk=" data-listing-date-sort="1719979200000" data-listing-file-modified-sort="1790871722903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3259">
     
     <div class="thumbnail">
       <a href="../research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html" class="no-external" tabindex="-1" aria-hidden="true">
@@ -555,7 +591,7 @@ window.Quarto = {
   </article>
 
   
-  <article class="quarto-post research-card" data-index="1" data-categories="YnVzaW5lc3MlMjBjeWNsZXMlMkNpbnRlcm5hdGlvbmFs" data-listing-date-sort="1624334400000" data-listing-file-modified-sort="1769799629378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
+  <article class="quarto-post research-card" data-index="1" data-categories="YnVzaW5lc3MlMjBjeWNsZXMlMkNpbnRlcm5hdGlvbmFs" data-listing-date-sort="1624334400000" data-listing-file-modified-sort="1790871711209" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
     
     <div class="thumbnail">
       <a href="../research/other-research/2021-06-22-The-Global-Recovery/index.html" class="no-external" tabindex="-1" aria-hidden="true">
