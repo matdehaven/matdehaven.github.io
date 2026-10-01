@@ -25,7 +25,7 @@ callout-important: "Job Market Paper"
 
 :::{.callout-important appearance="simple"}
 ## 2026-2027 Job Market Paper
-Draft coming soon.
+Draft coming soon!
 :::
 
 # Abstract
