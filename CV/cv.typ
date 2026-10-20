@@ -75,17 +75,18 @@
 
 #resume-entry(
   title: "Brown University",
-  location: "",
+  location: "Providence, RI, USA",
   date: "2021 - May 2027 (Expected)",
   description: "Doctor of Philosophy, Economics"
 )
 
 #resume-entry(
   title: "Furman University",
-  location: "",
+  location: "Greenville, SC, USA",
   date: "2014 - 2018",
   description: "Bachelor of Science, Summa Cum Laude, Mathematics-Economics and Political Science"
 )
+_Study Abroad_: Université de Versailles-Saint-Quentin-en-Yvelines, France
 
 = Research
 
@@ -178,7 +179,9 @@ Department of Economics Teaching Award, Brown University (2026),
 Department Nominee for Presidential Award for Excellence in Teaching, Brown University (2025, 2026)
 
 = Other
-_Technical_: R, Python, Julia, LaTeX, Typst, Git, Quarto
+_Technical_: R, Python, Julia, Matlab, Stata, LaTeX, Typst, Git, GitHub, Quarto
 
-_Citizenship_: United States of America
+_Citizenship_: United States
+
+_Languages_: English (native), French (intermediate) 
 
