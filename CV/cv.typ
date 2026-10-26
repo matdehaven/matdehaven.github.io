@@ -90,7 +90,7 @@ _Study Abroad_: Université de Versailles-Saint-Quentin-en-Yvelines, France
 
 = Research
 
-_Primary Fields_: Macroeconomics, International Finance, Macro-Finance
+_Primary Fields_: Macroeconomics, Macro-Finance, International Finance
 
 #set list(marker: [‣])
 
@@ -100,7 +100,14 @@ _Primary Fields_: Macroeconomics, International Finance, Macro-Finance
 
 #block(inset: (left: 1.5em, right: 1.5em), [
   #set text(size: 11pt)
-  _Abstract_: How do domestic uncertainty shocks affect the macroeconomy and financial markets? I study this question in a New Keynesian small open economy model with stochastic volatility and incomplete international risk sharing. I find that in an open economy, the effects of domestic uncertainty shocks depend upon the source of uncertainty. Domestic productivity uncertainty shocks lead to an increase in the foreign bond risk premium and an appreciation of the nominal exchange rate. Domestic demand uncertainty shocks lead to a depreciation instead. In data from the United Kingdom, I separate supply and demand uncertainty shocks and find they have opposite responses in the nominal exchange rate. My model can account for this pattern with shocks to different sources of uncertainty.
+  _Abstract_: Leveraging newspaper text from the United Kingdom, I separate economic uncertainty into demand and supply uncertainty using a large language model to label the article topics. 
+I find that demand uncertainty depreciates the pound and raises the currency risk premium, while supply uncertainty appreciates the pound and lowers the currency risk premium.
+I rationalize the results using a New Keynesian small open economy model with stochastic volatility, recursive preferences, and incomplete international risk sharing.
+Households price the risk of holding foreign currency by how its value moves when they most want to consume.
+For demand shocks, the pound depreciates when they want to consume, and so the foreign bond is a good hedge; when demand uncertainty increases, households buy more of the foreign bond, depreciating the pound and raising the currency risk premium today.
+For supply shocks, the pound appreciates when they want to consume, and so the foreign bond is a bad hedge; when supply uncertainty increases, the reverse occurs.
+This differing response of the currency risk premium is due to incomplete international risk sharing, while the pricing frictions link the nominal and real exchange rate responses.
+
 ])
 
 
@@ -127,7 +134,7 @@ _Primary Fields_: Macroeconomics, International Finance, Macro-Finance
     description: "Teaching Fellow"
   )
   #resume-item[
-    - Applied Economics Analysis (first-year PhD course)
+    - Applied Economics Analysis (first-year Ph.D. course)
   ]
   Developed course and delivered all lectures.
   Class focused on programming, version control, and reproducible research.
@@ -141,7 +148,7 @@ _Primary Fields_: Macroeconomics, International Finance, Macro-Finance
 )
 #resume-item[
   - Intermediate Macroeconomics
-  - Macroeconomics (first-year PhD course)
+  - Macroeconomics (first-year Ph.D. course)
 ]
 
 _Sheridan Center Teaching Certificates_:
