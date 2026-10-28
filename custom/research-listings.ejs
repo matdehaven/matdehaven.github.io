@@ -29,6 +29,7 @@
     <div class="body">
       <header>
         <h4 class="no-anchor listing-title">
+          <% if (hasCallout) { %><span class="callout-pill"><%= calloutText %></span><% } %>
           <a href="<%- item.path %>" class="no-external stretched-link">
             <%= item.title %>
           </a>
@@ -38,10 +39,8 @@
         <% } %>
       </header>
 
-      <% if (hasCallout || hasAnyMeta || hasLinks) { %>
+      <% if (hasAnyMeta || hasLinks) { %>
       <div class="metadata">
-        <% if (hasCallout) { %><span class="callout-pill"><%= calloutText %></span><% } %>
-        <% if (hasCallout && hasAnyMeta) { %> <% } %>
         <% if (hasDate) { %><span class="meta-date"><%= item.date %></span><% } %>
         <% if (hasDate && (hasAuthor || hasVenue)) { %> &middot; <% } %>
         <% if (hasAuthor) { %><span class="meta-author"><%= item.author %></span><% } %>
