@@ -190,6 +190,20 @@ body div.callout.jmp-callout {
     padding: 0.25rem 0.75rem;
     vertical-align: baseline;
   }
+
+  // On phones, drop the PDF/CV buttons onto their own row
+  @media (max-width: 575.98px) {
+    .jmp-callout-btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .jmp-callout-btn {
+      margin-left: 0;
+    }
+  }
 }
 
 // Committee line (homepage callout + JMP landing page). Links sit above the
