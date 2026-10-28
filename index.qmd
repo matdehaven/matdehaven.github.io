@@ -22,10 +22,11 @@ about:
       href: CV/index.qmd
 ---
 
-:::{.callout-important}
+:::{.callout-important .jmp-callout}
 ## 2026-2027 Job Market
 I am on the 2026-2027 academic job market.
-My job market paper, **"Source Matters: Demand vs. Supply Uncertainty in a Small Open Economy,"** can be found [here](research/jmp/2026-05-15-Domestic-Uncertainty/index.qmd).
+My job market paper is [**"Source Matters: Demand vs. Supply Uncertainty in a Small Open Economy."**](research/jmp/source-matters/index.qmd){.stretched-link}
+[{{< fa file-pdf >}} PDF](research/jmp/source-matters/DeHaven-JMP-Source-Matters.pdf){.btn .btn-outline-primary .btn-sm .jmp-pdf-link target="_blank" aria-label="Job market paper (PDF)"}
 :::
 
 

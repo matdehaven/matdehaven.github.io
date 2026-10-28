@@ -1,0 +1,48 @@
+---
+format: 
+  html:
+    template-partials: ../../../custom/title-block.html
+title: "Source Matters: Demand vs. Supply Uncertainty in a Small Open Economy"
+author: 
+  - Matthew DeHaven
+date: October 28, 2026
+categories: ["uncertainty", "business cycles", "financial", "international"]
+callout-important: "Job Market Paper"
+image: tdm-uncertainty-shares-slides.svg
+pdf-url: /research/jmp/source-matters/DeHaven-JMP-Source-Matters.pdf
+# external-url:
+# external-name:
+# citation:
+#   type: article-journal
+#   container-title:
+#   volume:
+#   issue:
+#   page-first:
+#   issn:
+#   doi:
+aliases:
+  - ../2026-05-15-Domestic-Uncertainty/index.html
+---
+
+
+:::{.callout-important appearance="simple"}
+## 2026-2027 Job Market Paper
+[Download the latest draft](DeHaven-JMP-Source-Matters.pdf){target="_blank"}
+:::
+
+# Abstract
+
+Using UK newspaper text, I separate economic uncertainty into demand and supply uncertainty using a large language model to label article topics. 
+I find that demand uncertainty depreciates the pound and raises the currency risk premium on the pound relative to the dollar, while supply uncertainty appreciates the pound and lowers the currency risk premium.
+I rationalize the results using a New Keynesian small open economy model with stochastic volatility, recursive preferences, and incomplete international risk sharing.
+Under demand shocks a foreign-currency bond shares risk, but under supply shocks it raises risk, so rising uncertainty about each moves the domestic currency risk premium in opposite directions.
+Incomplete international risk sharing lets the sign depend upon the source, while pricing frictions link the nominal and real responses, which move together in the data.
+Level shocks cannot generate the observed changes in risk premia, so the data point to time-varying risk.
+An aggregate measure of uncertainty masks these opposite responses.
+
+
+::: {#fig-2 style="font-size: 60%;"}
+![](tdm-uncertainty-shares-slides.svg){width=7in}
+
+Share of UK Uncertainty Attributed to Each Economic Topic
+:::

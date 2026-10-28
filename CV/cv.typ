@@ -25,25 +25,28 @@
 = References
 
 #v(0.5em) // Add a little breathing room
-#align(center)[#grid(
+#align(center)[
+#set par(justify: false) // Long titles wrap cleanly instead of stretching
+#set text(hyphenate: false)
+#grid(
   columns: (1fr, 1fr, 1fr), // Three columns of equal width
   gutter: 1em,              // Space between columns
   [
     *Şebnem Kalemli-Özcan*\
     Brown University\
-    Department of Economics\
+    Schreiber Family Professor of Economics\
     #link("mailto:sebnem_kalemli-ozcan@brown.edu")[#raw("sebnem_kalemli-ozcan@brown.edu")]
   ],
   [
     *Gauti B. Eggertsson*\
     Brown University\
-    Department of Economics\
+    Dupee Family Professor of Economics\
     #link("mailto:gauti_eggertsson@brown.edu")[#raw("gauti_eggertsson@brown.edu")]
   ],
   [
     *Amy Handlan*\
     Brown University\
-    Department of Economics\
+    Yang Family Assistant Professor of Economics\
     #link("mailto:amy_handlan@brown.edu")[#raw("amy_handlan@brown.edu")]
   ]
 )]
@@ -118,7 +121,7 @@ This differing response of the currency risk premium is due to incomplete intern
 
 == Working Papers
 
-- Adrian, Tobias, Matthew DeHaven, Fernando Duarte, and Tara Iyer. 2023. "The Market Price of Risk and Macro-Financial Dynamics." IMF Working Papers 2023 (199). CEPR Discussion Paper No. 17777.
+- Adrian, Tobias, Matthew DeHaven, Fernando Duarte, and Tara Iyer. 2023. "The Market Price of Risk and Macro-Financial Dynamics." IMF Working Papers 2023 (199). CEPR Discussion Paper No. 17777. (Submitted for Review)
 
 
 == Work in Progress

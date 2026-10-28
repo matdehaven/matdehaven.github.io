@@ -158,6 +158,39 @@ body div.callout-important.callout-style-default .callout-body-container {
   padding: 1rem;
 }
 
+// Homepage JMP callout: whole box links to the landing page via
+// .stretched-link; the PDF icon sits above it so it stays clickable.
+body div.callout.jmp-callout {
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 6px 14px rgba($secondary, 0.18);
+    transform: translateY(-1px);
+
+    .callout-header .callout-title-container {
+      color: $secondary !important;  // matches .research-card.is-callout hover
+    }
+  }
+
+  .callout-header .callout-title-container {
+    transition: color 0.15s ease-in-out;
+  }
+
+  // The stretched link carries the click target; render the title as plain text
+  a.stretched-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .jmp-pdf-link {
+    position: relative;
+    z-index: 2;
+    margin-left: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    vertical-align: baseline;
+  }
+}
 
 // ==========================================
 // RESEARCH LISTING CARDS
