@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/course-applied-economics-analysis/index.html",
+      "/teaching/ta-intermediate-macroeconomics/index.html",
+      "/teaching/ta-macroeconomics/index.html"
+    ]
+  },
+  {
     "listing": "/research/index.html",
     "items": [
       "/research/work-in-progress/2024-11-14-Price-of-Risk-Business-Cycles/index.html",
@@ -8,14 +16,6 @@
       "/research/other-research/2021-06-01-Minute-by-Minute/minute-by-minute.html",
       "/research/other-research/2021-06-22-The-Global-Recovery/index.html",
       "/research/jmp/source-matters/index.html"
-    ]
-  },
-  {
-    "listing": "/teaching/index.html",
-    "items": [
-      "/teaching/course-applied-economics-analysis/index.html",
-      "/teaching/ta-intermediate-macroeconomics/index.html",
-      "/teaching/ta-macroeconomics/index.html"
     ]
   }
 ]

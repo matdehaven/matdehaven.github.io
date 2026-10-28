@@ -5,7 +5,8 @@ format:
 title: "Source Matters: Demand vs. Supply Uncertainty in a Small Open Economy"
 author: 
   - Matthew DeHaven
-date: October 28, 2026
+date-modified: October 28, 2026
+# date:
 categories: ["uncertainty", "business cycles", "financial", "international"]
 callout-important: "Job Market Paper"
 image: tdm-uncertainty-shares-slides.svg
@@ -22,13 +23,16 @@ pdf-url: /research/jmp/source-matters/DeHaven-JMP-Source-Matters.pdf
 #   doi:
 aliases:
   - ../2026-05-15-Domestic-Uncertainty/index.html
+  - ../../work-in-progress/2026-05-15-Domestic-Uncertainty/index.html
 ---
 
 
 :::{.callout-important appearance="simple"}
-## 2026-2027 Job Market Paper
+## 2026--2027 Job Market Paper
 [Download the latest draft](DeHaven-JMP-Source-Matters.pdf){target="_blank"}
 :::
+
+[Committee: [Şebnem Kalemli-Özcan](https://sebnemkalemliozcan.com){target="_blank"}, [Gauti B. Eggertsson](https://sites.google.com/site/gautieggertsson/home){target="_blank"}, [Amy Handlan](https://sites.google.com/view/amy-handlan){target="_blank"}]{.jmp-committee}
 
 # Abstract
 

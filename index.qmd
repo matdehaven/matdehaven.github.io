@@ -23,10 +23,13 @@ about:
 ---
 
 :::{.callout-important .jmp-callout}
-## 2026-2027 Job Market
-I am on the 2026-2027 academic job market.
+## 2026--2027 Job Market
+I am on the 2026--2027 academic job market and expect to graduate May 2027.
 My job market paper is [**"Source Matters: Demand vs. Supply Uncertainty in a Small Open Economy."**](research/jmp/source-matters/index.qmd){.stretched-link}
-[{{< fa file-pdf >}} PDF](research/jmp/source-matters/DeHaven-JMP-Source-Matters.pdf){.btn .btn-outline-primary .btn-sm .jmp-pdf-link target="_blank" aria-label="Job market paper (PDF)"}
+[[]{.bi .bi-file-pdf aria-hidden="true"} PDF](research/jmp/source-matters/DeHaven-JMP-Source-Matters.pdf){.btn .btn-outline-primary .btn-sm .jmp-callout-btn target="_blank" aria-label="Job market paper (PDF)"}
+[[]{.bi .bi-file-earmark-person aria-hidden="true"} CV](CV/cv.pdf){.btn .btn-outline-primary .btn-sm .jmp-callout-btn target="_blank" aria-label="CV (PDF)"}
+
+[Committee: [Şebnem Kalemli-Özcan](https://sebnemkalemliozcan.com){target="_blank"}, [Gauti B. Eggertsson](https://sites.google.com/site/gautieggertsson/home){target="_blank"}, [Amy Handlan](https://sites.google.com/view/amy-handlan){target="_blank"}]{.jmp-committee}
 :::
 
 

@@ -183,12 +183,32 @@ body div.callout.jmp-callout {
     text-decoration: none;
   }
 
-  .jmp-pdf-link {
+  .jmp-callout-btn {
     position: relative;
     z-index: 2;
     margin-left: 0.5rem;
     padding: 0.25rem 0.75rem;
     vertical-align: baseline;
+  }
+}
+
+// Committee line (homepage callout + JMP landing page). Links sit above the
+// homepage stretched link; body-colored with a faint underline so they read
+// as links without the full link color
+.jmp-committee a {
+  position: relative;
+  z-index: 2;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba($base01, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: color 0.15s ease-in-out, text-decoration-color 0.15s ease-in-out;
+
+  &:hover,
+  &:focus-visible {
+    color: $primary;
+    text-decoration-color: $primary;
   }
 }
 

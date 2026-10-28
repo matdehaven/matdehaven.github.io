@@ -6,6 +6,8 @@ format:
     page-layout: article 
 execute:
   freeze: false
+aliases:
+  - cv.html
 resources:
   - "cv.pdf"
   - "images/cv-page-*.png"
